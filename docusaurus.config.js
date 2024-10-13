@@ -74,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Nixoletas',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -110,8 +110,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'youtube',
+                href: 'https://youtube.com/nixoletas',
               },
               {
                 label: 'Discord',
@@ -132,7 +132,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/nixoletas',
               },
             ],
           },
