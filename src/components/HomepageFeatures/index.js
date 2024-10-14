@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'DevOps & Security',
-    Svg: require('@site/static/img/docker-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/docker-svgrepo.svg').default,
     description: (
       <>
         Practiced knowledge in docker deploymente & server administration.
