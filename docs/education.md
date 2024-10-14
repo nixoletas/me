@@ -21,7 +21,7 @@ sidebar_position: 3
 ---
 
 ### Java Object Orientation
-- Formação Aprenda a programar em Java com Orientação a Objetos (feb 2024)
+- Alura - Formação Aprenda a programar em Java com Orientação a Objetos (feb 2024)
 
 ---
 
