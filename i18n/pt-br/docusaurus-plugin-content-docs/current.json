@@ -1,14 +1,14 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Próxmo",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Projects": {
-    "message": "Projects",
+    "message": "Projetos",
     "description": "The label for category Projects in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Projects.link.generated-index.description": {
-    "message": "Every project i've built so far.",
+    "message": "Todos projetos construídos até aqui.",
     "description": "The generated-index page description for category Projects in sidebar tutorialSidebar"
   }
 }

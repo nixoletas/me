@@ -31,10 +31,10 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt'],
+    locales: ['en', 'pt-br'],
     localeConfigs: {
-      pt: {
-        label: 'Português',
+      'pt-br': {
+        label: 'Português (Brasil)',
         direction: 'ltr',  // Sentido da escrita (esquerda para direita)
       },
       en: {
