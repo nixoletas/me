@@ -31,7 +31,17 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-br'],
+    locales: ['en', 'pt'],
+    localeConfigs: {
+      pt: {
+        label: 'Português',
+        direction: 'ltr',  // Sentido da escrita (esquerda para direita)
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -88,6 +98,10 @@ const config = {
             label: 'LinkedIn',
             position: 'right',
           },
+          {
+            type: "localeDropdown",
+            position: "right"
+          }
         ],
       },
       footer: {
