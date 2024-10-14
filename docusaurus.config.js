@@ -94,11 +94,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'About me',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Experience',
+                to: '/docs/experience',
+              },
+              {
+                label: 'Education',
+                to: '/docs/education',
+              },
+              {
+                label: 'Projects',
+                to: '/docs/category/projects',
               },
             ],
           },
