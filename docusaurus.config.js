@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: `Hi, I'm Nick!`,
-  tagline: 'Welcome to my page',
+  title: `Nixoletas`,
+  tagline: 'Welcome!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'pt-br'],
   },
 
   presets: [
@@ -103,15 +103,11 @@ const config = {
             ],
           },
           {
-            title: 'My social media',
+            title: 'Social Media',
             items: [
               {
-                label: 'youtube',
+                label: 'Youtube',
                 href: 'https://youtube.com/nixoletas',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
