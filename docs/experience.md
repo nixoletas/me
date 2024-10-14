@@ -3,8 +3,13 @@ title: Experience
 sidebar_position: 2
 ---
 
+## Head of Information Technology
+`(feb 2024 - moment)`
+
+Coming back to the lead of IT Section, now it was time to put in practice at lot of skills that i managed to develop in this short space of time and start a new project to fully replace the intranet of the battalion as well as self host a few amazing open source tools to help our military get the most out of their job and provide tools to help them improve their work.
+
 ## Systems Platoon Commander
-`(jun 2023 - moment)`
+`(jun 2023 - feb 2024)`
 
 As the Systems Platoon Commander, I worked together with the team in managing and maintaining the Brazilian Army's Command and Control systems. I also developed web applications in React.js to improve and facilitate navigation between various different systems.
 
