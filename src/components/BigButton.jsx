@@ -12,7 +12,7 @@ const BigButton = () => {
         padding: '1rem 2rem',
         fontWeight: 'bold',
         fontSize: '1.5rem',
-        backgroundColor: '#007acc',
+        backgroundColor: 'var(--ifm-color-primary-darker)',
         color: 'white',
         textAlign: 'center',
         textDecoration: 'none',
@@ -22,11 +22,11 @@ const BigButton = () => {
         transition: 'background-color 0.3s ease, transform 0.3s ease',
       }}
       onMouseOver={(e) => {
-        e.currentTarget.style.backgroundColor = '#005f99';
+        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary)';
         e.currentTarget.style.transform = 'scale(1.05)';
       }}
       onMouseOut={(e) => {
-        e.currentTarget.style.backgroundColor = '#007acc';
+        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary-darker)';
         e.currentTarget.style.transform = 'scale(1)';
       }}
     >
