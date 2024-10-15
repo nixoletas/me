@@ -1,8 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import PersonalTabs from '../Tabs';
 
 const FeatureList = [
   {
@@ -54,15 +53,8 @@ export default function HomepageFeatures() {
           ))}
         </div>
         <div style={{padding: "28px",display: "flex", justifyContent: "center"}}>
-      <Tabs>
-  <TabItem value="projects" label="PROJECTS" default>
-    This is an apple 🍎
-  </TabItem>
-  <TabItem value="resume" label="RESUME">
-    This is an orange 🍊
-  </TabItem>
-</Tabs>
 </div>
+<PersonalTabs/>
       </div>
     </section>
   );
