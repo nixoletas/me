@@ -101,10 +101,6 @@ const config = {
             title: 'About me',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs/intro',
-              },
-              {
                 label: 'Experience',
                 to: '/docs/experience',
               },
