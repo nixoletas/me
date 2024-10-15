@@ -1,14 +1,17 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import PersonalTabs from '../Tabs';
+import Translate from '@docusaurus/Translate';
+import BigButton from '../BigButton';
 
 const FeatureList = [
   {
     title: 'Front-end',
     description: (
       <>
+      <Translate>
         HTML, CSS & Javascript in real projects. ⭐
+      </Translate>
       </>
     ),
   },
@@ -16,7 +19,9 @@ const FeatureList = [
     title: 'DevOps & Security',
     description: (
       <>
+      <Translate>
         Docker, Kubernetes & Linux. 🔒
+      </Translate>
       </>
     ),
   },
@@ -24,7 +29,9 @@ const FeatureList = [
     title: 'Back-end',
     description: (
       <>
+      <Translate>
         Real projects with Java and Node.  🛠️
+        </Translate>
       </>
     ),
   },
@@ -53,9 +60,9 @@ export default function HomepageFeatures() {
           ))}
         </div>
         <div style={{padding: "28px",display: "flex", justifyContent: "center"}}>
+<BigButton/>
 </div>
-<PersonalTabs/>
-      </div>
+</div>
     </section>
   );
 }
