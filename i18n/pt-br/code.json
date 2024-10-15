@@ -305,5 +305,23 @@
   "theme.tags.tagsPageTitle": {
     "message": "Marcadores",
     "description": "The title of the tag list page"
+  },
+  "HTML, CSS & Javascript in real projects. ⭐": {
+    "message": "HTML, CSS & Javascript. ⭐"
+  },
+  "Docker, Kubernetes & Linux. 🔒": {
+    "message": "Docker, Kubernetes e Linux. 🔒"
+  },
+  "Real projects with Java and Node. 🛠️": {
+    "message": "Projetos feitos em Java e Node. 🛠️"
+  },
+  "Hi, I'm Nick.": {
+    "message": "Oi, eu sou Nick."
+  },
+  "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽": {
+    "message": "Sou desenvolvedor de software. Eu gosto de criar coisas. Gosto de xadrez, música e futebol. ⚽"
+  },
+  "About": {
+    "message": "Sobre"
   }
 }

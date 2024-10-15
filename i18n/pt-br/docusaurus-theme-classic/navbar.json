@@ -22,5 +22,9 @@
   "item.label.LinkedIn": {
     "message": "LinkedIn",
     "description": "Navbar item with label LinkedIn"
+  },
+  "item.label.About": {
+    "message": "Sobre",
+    "description": "Navbar item with label About"
   }
 }
