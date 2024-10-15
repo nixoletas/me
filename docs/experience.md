@@ -7,7 +7,7 @@ sidebar_position: 2
 
 `(feb 2024 - moment)`
 
-Coming back to the lead of IT Section, now it was time to put in practice at lot of skills that i managed to develop in this short space of time and start a new project to fully replace the intranet of the battalion as well as self host a few amazing open source tools to help our military get the most out of their job and provide tools to help them improve their work.
+Coming back to the lead of IT Section, now it was time to put in practice at lot of skills that i managed to develop in this short space of time and start a new project to fully replace the intranet of the battalion as well as self host a few amazing open source tools to help our employees be more productive and provide tools to help them improve their work.
 
 ---
 
