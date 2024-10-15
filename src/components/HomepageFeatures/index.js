@@ -10,7 +10,7 @@ const FeatureList = [
     description: (
       <>
       <Translate>
-        HTML, CSS & Javascript in real projects. ⭐
+        HTML, CSS & Javascript. ⭐
       </Translate>
       </>
     ),
@@ -42,7 +42,7 @@ function Feature({Svg, title, description}) {
     <div className={clsx('col col--4')}>
       <div className="text--center">
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--center padding-horiz--md" style={{margin: "3rem"}}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>

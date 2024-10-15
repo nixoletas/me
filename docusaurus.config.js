@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: `Nixoletas`,
   tagline: "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽",
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_nixoletas.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -73,12 +73,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo_nixoletas.png',
       navbar: {
         title: 'Nixoletas',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_nixoletas.png',
         },
         items: [
           {

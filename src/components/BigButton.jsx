@@ -1,11 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faList } from '@fortawesome/free-solid-svg-icons';
+import Link from '@docusaurus/Link';
 
 const BigButton = () => {
   return (
-    <a
-      href='/docs/category/projects'
+    <Link
+      to='/docs/category/projects'
       style={{
         display: 'inline-block',
         justifyContent: 'center',
@@ -30,8 +31,8 @@ const BigButton = () => {
         e.currentTarget.style.transform = 'scale(1)';
       }}
     >
-      PROJECTS <FontAwesomeIcon icon={faList} />
-    </a>
+      PROJECTS <FontAwesomeIcon icon={faBook} />
+    </Link>
   );
 };
 
