@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `Nixoletas`,
-  tagline: "I'm a Software Developer. I like to create things. Also, I am interested in chess, music & soccer. ⚽",
+  tagline: "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
