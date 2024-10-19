@@ -14,12 +14,13 @@
   --ifm-color-primary-lighter: #356099;
   --ifm-color-primary-lightest: #3c64ad;
   --ifm-code-font-size: 95%;
+  --ifm-hero-background-color: #163057;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #2564c2;
+  --ifm-color-primary: #3373d4;
   --ifm-color-primary-dark: #2136af;
   --ifm-color-primary-darker: #1f33a5;
   --ifm-color-primary-darkest: #1a4688;
@@ -27,4 +28,10 @@
   --ifm-color-primary-lighter: #3243d8;
   --ifm-color-primary-lightest: #4f51dd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.hero--primary {
+  --ifm-hero-background-color: #1b304f;
+  --ifm-hero-text-color: #e4e4e4;
 }
