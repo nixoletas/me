@@ -122,8 +122,16 @@ const config = {
                 href: 'https://youtube.com/nixoletas',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/nixoletas/?locale=en_US',
+              },
+              {
+                label: 'Soundcloud',
+                href: 'https://soundcloud.com/nixoletas',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/nixoletas',
               },
             ],
           },
@@ -133,10 +141,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/nixoletas',
               },
             ],
           },
