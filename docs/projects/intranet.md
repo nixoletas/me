@@ -12,11 +12,9 @@ import { Justify } from '../../src/components/Justify';
 
 ---
 
-![govbr-screenc](\img\govbr.png) 
+![govbr-screenc](\img\intranet-govbr.png)
 
-## About this project 
-
-### How it started
+# About the project
 ---
 <Justify>
 While i was in duty break, the government changed it's standard digital identity, so i just went to take a quick look at what was being done by the development team. The project was Open Source, available at Gitlab [govbr-ds-core](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-core) and the [documentation](https://www.gov.br/ds/home) was really good and clear.
