@@ -21,12 +21,13 @@ export const Projects = ({ title, description, imgSrc }) => {
         }}>
             <div style={{ flex: "1" }}>
                 <a href="./intranet">
-                <img src={imgSrc} alt="Project Thumbnail" width="100%" style={{
-                    height: "auto",
+                <img src={imgSrc} alt="Project Thumbnail" style={{
+                    width: "400px", // Fixed width
+                    height: "150px", // Fixed height
+                    objectFit: "cover", // Ensures the image covers the container while maintaining aspect ratio
                     border: "2px solid #d3d3d3",
                     borderRadius: "1rem",
-                    transition: "transform 0.3s ease",
-                    maxWidth: "400px"
+                    transition: "transform 0.3s ease"
                 }} 
                 onMouseEnter={e => e.currentTarget.style.transform = "scale(1.05)"}
                 onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
@@ -67,7 +68,8 @@ export const Projects = ({ title, description, imgSrc }) => {
                     }
 
                     img {
-                        max-width: 100%;
+                        width: 100%;
+                        height: auto;
                     }
 
                     h2 {
@@ -100,5 +102,11 @@ export const Projects = ({ title, description, imgSrc }) => {
 <Projects 
     imgSrc="/img/intranet-govbr.png" 
     title="GovBR Intranet" 
+    description="Production Intranet for my battalion made with (Express | Angular | Strapi)"
+/>
+
+<Projects 
+    imgSrc="/img/portfolio-vercel.png" 
+    title="Event Presence List" 
     description="Production Intranet for my battalion made with (Express | Angular | Strapi)"
 />
