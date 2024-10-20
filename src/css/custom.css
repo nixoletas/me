@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #214a80;
+  --ifm-color-primary: #006eff;
   --ifm-color-primary-dark: #295278;
   --ifm-color-primary-darker: #275071;
   --ifm-color-primary-darkest: #20385d;
@@ -33,5 +33,5 @@
 
 .hero--primary {
   --ifm-hero-background-color: #1b304f;
-  --ifm-hero-text-color: #e4e4e4;
+  --ifm-hero-text-color: #ffffff;
 }

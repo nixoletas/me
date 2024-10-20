@@ -1,3 +1,7 @@
+---
+title: Projects
+---
+
 import React from 'react';
 import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
@@ -7,14 +11,16 @@ export const Projects = ({ title, description, imgSrc }) => {
         <section style={{
             display: "flex", 
             gap: "2rem", 
-            flexWrap: "wrap",
+            flexWrap: "wrap", 
             alignItems: "center",
             padding: "2rem",
             borderRadius: "1rem",
-            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)"
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
+            flexDirection: "row",
+            justifyContent: "center"
         }}>
             <div style={{ flex: "1" }}>
-                <a href="https://github.com/nixoletas/intranet-govbr">
+                <a href="./intranet">
                 <img src={imgSrc} alt="Project Thumbnail" width="100%" style={{
                     height: "auto",
                     border: "2px solid #d3d3d3",
@@ -27,11 +33,23 @@ export const Projects = ({ title, description, imgSrc }) => {
                 />
                 </a>
             </div>
-            <div style={{ flex: "2", textAlign: "left" }}>
-                <h2 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "0.5rem" }}>
+            <div style={{
+                flex: "2", 
+                textAlign: "left",
+                maxWidth: "600px" // Ensure the text doesn't stretch too much on larger screens
+            }}>
+                <h2 style={{ 
+                    fontSize: "2rem", 
+                    fontWeight: "bold", 
+                    marginBottom: "0.5rem", 
+                }}>
                     {title}
                 </h2>
-                <p style={{ fontSize: "1.1rem", lineHeight: "1.6", marginBottom: "1rem" }}>
+                <p style={{ 
+                    fontSize: "1.1rem", 
+                    lineHeight: "1.6", 
+                    marginBottom: "1rem", 
+                }}>
                     {description}
                 </p>
                 <div style={{ display: "flex", gap: "1rem" }}>
@@ -39,6 +57,42 @@ export const Projects = ({ title, description, imgSrc }) => {
                     <DemoButton liveLink="/" />
                 </div>
             </div>
+
+            {/* Responsive Styles */}
+            <style jsx>{`
+                @media (max-width: 768px) {
+                    section {
+                        flex-direction: column;
+                        padding: 1rem;
+                    }
+
+                    img {
+                        max-width: 100%;
+                    }
+
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    div {
+                        width: 100%;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    h2 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }
+            `}</style>
         </section>
     );
 };
