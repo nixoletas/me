@@ -1,0 +1,36 @@
+---
+title: Projects
+---
+
+import React from 'react';
+import { CodeButton } from '../../src/components/CodeButton';
+import { DemoButton } from '../../src/components/DemoButton'; 
+
+export const Projects = ({title, description, imgSrc}) => {
+    return (
+    <section style={{display: "flex", gap: "2rem", alignItems: "center"}}>
+      <div>
+        <img src={imgSrc} alt="dummy img" width="100" style={{
+            border: "2px solid #d3d3d3",
+            borderRadius: "1rem"
+            }} />
+      </div>
+      <div>
+        <div>
+          <span style={{fontSize: "2rem", fontWeight: "bold"}}>{title}</span>
+        </div>
+        <span>{description}</span>
+        <CodeButton codeLink="/"/>
+        <DemoButton liveLink="/"/>
+        <div>
+        </div>
+      </div>
+    </section>
+    );
+};
+
+<Projects 
+    imgSrc="/img/aws-logo.png" 
+    title="hello" 
+    description="description"
+    />

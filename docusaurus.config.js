@@ -51,6 +51,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: 'portfolio'
         },
         blog: {
           showReadingTime: true,
@@ -110,7 +111,7 @@ const config = {
               },
               {
                 label: 'Projects',
-                to: '/docs/category/projects',
+                to: '/docs/projects',
               },
             ],
           },
