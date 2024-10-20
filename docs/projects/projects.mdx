@@ -14,6 +14,7 @@ export const Projects = ({ title, description, imgSrc }) => {
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)"
         }}>
             <div style={{ flex: "1" }}>
+                <a href="https://github.com/nixoletas/intranet-govbr">
                 <img src={imgSrc} alt="Project Thumbnail" width="100%" style={{
                     height: "auto",
                     border: "2px solid #d3d3d3",
@@ -24,6 +25,7 @@ export const Projects = ({ title, description, imgSrc }) => {
                 onMouseEnter={e => e.currentTarget.style.transform = "scale(1.05)"}
                 onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                 />
+                </a>
             </div>
             <div style={{ flex: "2", textAlign: "left" }}>
                 <h2 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "0.5rem" }}>
