@@ -1,19 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faList } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faList, faSuitcase } from '@fortawesome/free-solid-svg-icons';
 import Link from '@docusaurus/Link';
 
 const BigButton = () => {
   return (
     <Link
-      to='/docs/category/projects'
+      to='/docs/experience'
       style={{
         display: 'inline-block',
         justifyContent: 'center',
         padding: '1rem 2rem',
-        fontWeight: 'bold',
+        fontWeight: '500',
         fontSize: '1.5rem',
-        backgroundColor: 'var(--ifm-color-primary-darker)',
+        backgroundColor: 'var(--ifm-color-primary)',
         color: 'white',
         textAlign: 'center',
         textDecoration: 'none',
@@ -23,15 +23,15 @@ const BigButton = () => {
         transition: 'background-color 0.3s ease, transform 0.3s ease',
       }}
       onMouseOver={(e) => {
-        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary)';
+        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary-darker)';
         e.currentTarget.style.transform = 'scale(1.05)';
       }}
       onMouseOut={(e) => {
-        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary-darker)';
+        e.currentTarget.style.backgroundColor = 'var(--ifm-color-primary)';
         e.currentTarget.style.transform = 'scale(1)';
       }}
     >
-      PROJECTS <FontAwesomeIcon icon={faBook} />
+      About me <FontAwesomeIcon icon={faSuitcase} />
     </Link>
   );
 };

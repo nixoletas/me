@@ -7,8 +7,8 @@ import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
 import { Justify } from '../../src/components/Justify';
 
-<CodeButton codeLink="https://github.com/nixoletas/gov-eb-intranet-template"/>
-<DemoButton liveLink="https://nixoletas.github.io/gov-eb-intranet-template"/>
+<CodeButton codeLink="https://github.com/nixoletas/intranet-govbr"/>
+<DemoButton liveLink="https://nixoletas.github.io/intranet-govbr/home"/>
 
 ---
 

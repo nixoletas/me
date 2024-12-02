@@ -1,41 +1,49 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import Translate from '@docusaurus/Translate';
+import SocialIcons from '../components/SocialIcons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBook } from '@fortawesome/free-solid-svg-icons';
+import Grid from '../components/Grid';
+import Shadown from '../components/Shadown';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
+    <>
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+          <Grid/>
+      <div className="container" style={{zIndex: 1}}>
         <Heading as="h1" className="hero__title">
           <Translate>Hi, I'm Nick.</Translate>
         </Heading>
         <img src="/img/github-profile.jpg" alt="GitHub" style={{width:"140px", height:"140px", marginLeft:"10px", borderRadius:"4rem"}} />
-        <p className="hero__subtitle"><Translate>I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽</Translate></p>
+        <p className="hero__subtitle"><Translate>I'm a Software Developer, Musician and Designer.</Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/experience">
-            <Translate>About</Translate>
+            to="/docs/category/projects"
+            >
+            <Translate>Projects </Translate><FontAwesomeIcon icon={faBook}/>
           </Link>
         </div>
+        <SocialIcons />
       </div>
+<Shadown />
     </header>
+    </>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`👋`}
-      description="Description will go into a meta tag in <head />">
+    title={`Welcome`}
+    description="Nicholas Miyasato Portfolio & Blog">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

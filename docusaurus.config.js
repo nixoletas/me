@@ -118,12 +118,20 @@ const config = {
             title: 'Social Media',
             items: [
               {
+                label: 'Github',
+                href: 'https://github.com/nixoletas',
+              },
+              {
+                label: 'Likedin',
+                href: 'https://linkedin.com/in/nixoletas',
+              },
+              {
                 label: 'Youtube',
                 href: 'https://youtube.com/nixoletas',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'soundcloud',
+                href: 'https://soundcloud.com/nixoletas',
               },
             ],
           },
@@ -134,14 +142,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/nixoletas',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nixoletas, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nick Miyasato Portfolio. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
