@@ -1,6 +1,6 @@
 ---
-title: Event Presence List
-description: Battalion's intranet made with Angular and Strapi
+title: OnBoardsGame
+description: Find your perfect board game to play with your friends!
 ---
 
 import { CodeButton } from '../../src/components/CodeButton';
@@ -12,20 +12,12 @@ import { Justify } from '../../src/components/Justify';
 
 ---
 
-![govbr-screenc](\img\intranet-govbr.png)
+![govbr-screenc](\img\projects\onboardsgame.png)
 
 # About the project
 ---
 <Justify>
-While i was in duty break, the government changed it's standard digital identity, so i just went to take a quick look at what was being done by the development team. The project was Open Source, available at Gitlab [govbr-ds-core](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-core) and the [documentation](https://www.gov.br/ds/home) was really good and clear.
-
-I started developing from the [Angular](https://angular.dev) quickstart from their [repo](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-quickstart-angular) and it helped me develop my knowledge around that Framework.
-
-After i had some sort of solid replacer for our Intranet that at the time was being run in Joomla, the IT team and i decided to run for a test, it did pretty good in performance and the users enjoyed it a lot!
-
-Angular was the front-end and the Back-end was [Strapi](https://strapi.io/), a Headless yet Powerful CMS (pun intended).
-
-This is a real project that is still up to this date and currently is being run with [docker](https://www.docker.com/) on a [Nginx](https://nginx.org/) server.
+My friend had this database, actually a spreadsheet of boardgames and wanted to make a front-end
 
 ### Why Angular and not Joomla?
 ---
