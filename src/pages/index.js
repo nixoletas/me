@@ -26,9 +26,14 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+<<<<<<< HEAD
             to="/docs/category/projects"
             >
             <Translate>Projects </Translate><FontAwesomeIcon icon={faBook}/>
+=======
+            to="/portfolio/experience">
+            <Translate>About</Translate>
+>>>>>>> 3a60f48166f10a00bb1a52ccb71f3d455c33dbcf
           </Link>
         </div>
         <SocialIcons />

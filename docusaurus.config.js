@@ -51,6 +51,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: 'portfolio'
         },
         blog: {
           showReadingTime: true,
@@ -110,7 +111,7 @@ const config = {
               },
               {
                 label: 'Projects',
-                to: '/docs/category/projects',
+                to: '/docs/projects',
               },
             ],
           },
@@ -130,8 +131,8 @@ const config = {
                 href: 'https://youtube.com/nixoletas',
               },
               {
-                label: 'soundcloud',
-                href: 'https://soundcloud.com/nixoletas',
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },

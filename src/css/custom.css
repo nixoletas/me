@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #214a80;
+  --ifm-color-primary: #006eff;
   --ifm-color-primary-dark: #295278;
   --ifm-color-primary-darker: #275071;
   --ifm-color-primary-darkest: #20385d;
@@ -14,13 +14,19 @@
   --ifm-color-primary-lighter: #356099;
   --ifm-color-primary-lightest: #3c64ad;
   --ifm-code-font-size: 95%;
+  --ifm-hero-background-color: #163057;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+<<<<<<< HEAD
   --ifm-color-primary: #2564c2a8;
   --ifm-color-primary-dark: #2136af8c;
+=======
+  --ifm-color-primary: #3373d4;
+  --ifm-color-primary-dark: #2136af;
+>>>>>>> 3a60f48166f10a00bb1a52ccb71f3d455c33dbcf
   --ifm-color-primary-darker: #1f33a5;
   --ifm-color-primary-darkest: #1a468894;
   --ifm-color-primary-light: #2979d5;
@@ -34,6 +40,7 @@
 }
 
 
+<<<<<<< HEAD
 .footer {
   background-color: var(--ifm-color-primary);
 }
@@ -42,4 +49,9 @@
 .button:hover {
   background-color: var(--ifm-color-primary);
   color:white;
+=======
+.hero--primary {
+  --ifm-hero-background-color: #1b304f;
+  --ifm-hero-text-color: #ffffff;
+>>>>>>> 3a60f48166f10a00bb1a52ccb71f3d455c33dbcf
 }
