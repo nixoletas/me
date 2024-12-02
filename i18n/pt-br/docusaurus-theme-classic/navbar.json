@@ -4,16 +4,16 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "My Site Logo",
-    "description": "The alt text of navbar logo"
+    "message": "logo de nick miyasato",
+    "description": "logo de nick miyasato"
   },
   "item.label.About me": {
     "message": "Sobre mim",
-    "description": "Navbar item with label About me"
+    "description": "Nessa seção você pode saber mais sobre mim"
   },
   "item.label.Blog": {
     "message": "Blog",
-    "description": "Navbar item with label Blog"
+    "description": "Essa é a seção do blog"
   },
   "item.label.GitHub": {
     "message": "GitHub",
