@@ -306,22 +306,22 @@
     "message": "Marcadores",
     "description": "The title of the tag list page"
   },
-  "HTML, CSS & Javascript in real projects. ⭐": {
-    "message": "HTML, CSS & Javascript. ⭐"
+  "HTML, CSS & Javascript. ⭐ I built the entire Intranet for my company using Angular, Strapi and Node.": {
+    "message": "HTML, CSS & Javascript. ⭐ Construí toda a Intranet da minha empresa usando Angular, Strapi e Node."
   },
-  "Docker, Kubernetes & Linux. 🔒": {
-    "message": "Docker, Kubernetes e Linux. 🔒"
+  "Docker, Kubernetes & Linux. 🔒. Real experience managing various local PowerEdge Proxmox & Backup servers, along with the entire infrastructure of a company, including CFTV.": {
+    "message": "Docker, Kubernetes & Linux. 🔒. Experiência real gerenciando vários servidores locais PowerEdge Proxmox & Backup, juntamente com toda a infraestrutura de uma empresa, incluindo CFTV."
   },
-  "Real projects with Java and Node. 🛠️": {
-    "message": "Projetos feitos em Java e Node. 🛠️"
+  "Real projects with Java and Node 🛠️. I had the opportunity to create a Helpdesk Backend in Node integrated with Telegram for notifications.": {
+    "message": "Projetos reais com Java e Node 🛠️. Tive a oportunidade de criar um Backend de Helpdesk em Node integrado com Telegram para notificações."
   },
   "Hi, I'm Nick.": {
     "message": "Oi, eu sou Nick."
   },
-  "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽": {
-    "message": "Sou desenvolvedor de software. Eu gosto de criar coisas. Gosto de xadrez, música e futebol. ⚽"
+  "I'm a Software Developer, Musician and Designer.": {
+    "message": "Sou desenvolvedor de software, músico e designer."
   },
-  "About": {
-    "message": "Sobre"
+  "Projects ": {
+    "message": "Projetos "
   }
 }

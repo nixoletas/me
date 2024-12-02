@@ -28,7 +28,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/portfolio/projects"
             >
-            <Translate>Projects </Translate><FontAwesomeIcon icon={faBook}/>
+            <Translate>Projects </Translate><FontAwesomeIcon icon={faBook} width={15}/>
           </Link>
         </div>
         <SocialIcons />
