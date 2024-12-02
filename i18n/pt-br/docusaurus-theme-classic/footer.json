@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/nixoletas"
   },
   "copyright": {
-    "message": "Copyright © 2024 Nixoletas, Inc. Construído com Docusaurus.",
+    "message": "Copyright © 2024 Portfolio de Nick Miyasato. Construído com Docusaurus.",
     "description": "The footer copyright"
   }
 }
