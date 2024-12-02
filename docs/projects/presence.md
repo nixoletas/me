@@ -1,5 +1,5 @@
 ---
-title: GovBR Intranet
+title: Event Presence List
 description: Battalion's intranet made with Angular and Strapi
 ---
 

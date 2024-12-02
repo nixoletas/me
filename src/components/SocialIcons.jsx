@@ -21,16 +21,21 @@ const SocialIcons = () => {
                             href={link.url} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            style={{ textDecoration: 'none', color: 'white', fontSize: '2rem', transition: 'transform 310ms ease, color 310ms ease'
+                            style={{ 
+                                textDecoration: 'none', 
+                                color: 'var(--ifm-color-primary-light)', 
+                                fontSize: '2rem', 
+                                transition: 'transform 310ms ease, color 310ms ease',
                             }}
                             onMouseEnter={(e) => {
-                                e.currentTarget.style.color = 'var(--ifm-color-primary-light)';
+                                e.currentTarget.style.color = 'var(--ifm-color-primary-lightest)';
                             }}
                             onMouseLeave={(e) => {
-                                e.currentTarget.style.color = 'white';
+                                e.currentTarget.style.color = 'var(--ifm-color-primary-light)';
                             }}
                         >
-                      <FontAwesomeIcon icon={link.icon} />
+                      <FontAwesomeIcon icon={link.icon}
+                      />
                         </a>
                     </li>
                 ))}

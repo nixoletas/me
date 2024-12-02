@@ -6,7 +6,7 @@ import React from 'react';
 import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
 
-export const Projects = ({ title, description, imgSrc }) => {
+export const Projects = ({ title, description, imgSrc, repo, demo }) => {
     return (
         <section style={{
             display: "flex", 
@@ -54,8 +54,8 @@ export const Projects = ({ title, description, imgSrc }) => {
                     {description}
                 </p>
                 <div style={{ display: "flex", gap: "1rem" }}>
-                    <CodeButton codeLink="https://github.com/nixoletas/intranet-govbr" />
-                    <DemoButton liveLink="/" />
+                    <CodeButton codeLink={repo} />
+                    <DemoButton liveLink={demo} />
                 </div>
             </div>
 
@@ -103,10 +103,14 @@ export const Projects = ({ title, description, imgSrc }) => {
     imgSrc="/img/intranet-govbr.png" 
     title="GovBR Intranet" 
     description="Production Intranet for my battalion made with (Express | Angular | Strapi)"
+    repo={"https://github.com/nixoletas/intranet-govbr"}
+    demo={"https://nixoletas.github.io/intranet-govbr"}
 />
 
 <Projects 
     imgSrc="/img/portfolio-vercel.png" 
     title="Event Presence List" 
     description="Production Intranet for my battalion made with (Express | Angular | Strapi)"
+    repo={"https://github.com/nixoletas/intranet-govbr"}
+    demo={"https://nixoletas.github.io/intranet-govbr"}
 />

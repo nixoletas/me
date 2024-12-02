@@ -6,16 +6,35 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #006eff;
+  --ifm-color-primary: #314e72;
   --ifm-color-primary-dark: #295278;
   --ifm-color-primary-darker: #275071;
   --ifm-color-primary-darkest: #20385d;
-  --ifm-color-primary-light: #336f92;
+  --ifm-color-primary-light: #20385d;
   --ifm-color-primary-lighter: #356099;
   --ifm-color-primary-lightest: #3c64ad;
   --ifm-code-font-size: 95%;
   --ifm-hero-background-color: #163057;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  .hero--primary {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .button {
+    background-color: var(--ifm-color-primary-darkest);
+    color:white;
+  }
+
+  .button:hover {
+    background-color: var(--ifm-color-primary-lightest);
+    color:white;
+  }
+
+  .footer {
+    background-color: var(--ifm-color-primary-darkest);
+  }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,12 +44,17 @@
   --ifm-color-primary-darker: #1f33a5;
   --ifm-color-primary-darkest: #1a468894;
   --ifm-color-primary-light: #2979d5;
-  --ifm-color-primary-lighter: #3243d8;
-  --ifm-color-primary-lightest: #4f51dd;
+  --ifm-color-primary-lighter: #2979d5;
+  --ifm-color-primary-lightest: #57a5ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   .hero--primary {
     background-color: var(--ifm-background-color);
     color: rgba(255, 255, 255, 0.9);
+  };
+
+  .button:hover {
+    background-color: var(--ifm-color-primary);
+    color:white;
   }
 }
 
@@ -39,8 +63,3 @@
   background-color: var(--ifm-color-primary);
 }
 
-
-.button:hover {
-  background-color: var(--ifm-color-primary);
-  color:white;
-}
