@@ -10,17 +10,17 @@ const FeatureList = [
     description: (
       <>
       <Translate>
-        HTML, CSS & Javascript. ⭐
+        HTML, CSS & Javascript. ⭐ I built the entire Intranet for my company using Angular, Strapi and Node.
       </Translate>
       </>
     ),
   },
   {
-    title: 'DevOps & Security',
+    title: 'DevSecOps',
     description: (
       <>
       <Translate>
-        Docker, Kubernetes & Linux. 🔒
+        Docker, Kubernetes & Linux. 🔒. Real experience managing various local PowerEdge Proxmox & Backup servers, along with the entire infrastructure of a company, including CFTV.
       </Translate>
       </>
     ),
@@ -30,7 +30,7 @@ const FeatureList = [
     description: (
       <>
       <Translate>
-        Real projects with Java and Node.  🛠️
+        Real projects with Java and Node 🛠️. I had the opportunity to create a Helpdesk Backend in Node integrated with Telegram for notifications.  
         </Translate>
       </>
     ),

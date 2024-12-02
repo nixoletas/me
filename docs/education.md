@@ -15,7 +15,7 @@ sidebar_position: 3
 
 ---
 
-### AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1 <img src="/img/aws-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
+### AWS Academy Graduate - AWS Academy Introduction to Cloud <img src="/img/aws-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
 - Amazon Web Services (may 2024)
 
 ---

@@ -103,15 +103,15 @@ const config = {
             items: [
               {
                 label: 'Experience',
-                to: '/docs/experience',
+                to: '/portfolio/experience',
               },
               {
                 label: 'Education',
-                to: '/docs/education',
+                to: '/portfolio/education',
               },
               {
                 label: 'Projects',
-                to: '/docs/projects',
+                to: '/portfolio/projects',
               },
             ],
           },
@@ -131,8 +131,8 @@ const config = {
                 href: 'https://youtube.com/nixoletas',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Soundcloud',
+                href: 'https://soundcloud.com/soundcloud',
               },
             ],
           },
