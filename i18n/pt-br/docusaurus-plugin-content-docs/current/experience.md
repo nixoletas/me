@@ -1,29 +1,29 @@
----
-title: Experiência
-sidebar_position: 2
----
+---  
+title: Experiência  
+sidebar_position: 2  
+---  
 
-## Systems Platoon Commander
-`(jun 2023 - moment)`
+## Comandante do Pelotão de Sistemas  
+`(jun 2023 - atual)`  
 
-As the Systems Platoon Commander, I worked together with the team in managing and maintaining the Brazilian Army's Command and Control systems. I also developed web applications in React.js to improve and facilitate navigation between various different systems.
+Como Comandante do Pelotão de Sistemas, trabalhei em conjunto com a equipe na gestão e manutenção dos sistemas de Comando e Controle do Exército Brasileiro. Também desenvolvi aplicações web em React.js para otimizar e facilitar a navegação entre diversos sistemas distintos.  
 
-## Head of Information Technology
-`(jan 2023 - may 2023)`
+## Chefe da Seção de Tecnologia da Informação  
+`(jan 2023 - mai 2023)`  
 
-Still in 9th Batallion, I headed the Information Technology Section. With the team, I was able to see how the Scrum methodology works in practice. We worked on several System Management and Cybersecurity tools such as Proxmox, Graylog, PfSense, Security Onion, among others. We also worked with several SysAdmin and Cybersecurity tools such as Proxmox, Graylog, PfSense, Security Onion, among others.
+No 9º Batalhão de Comunicações e Guerra Eletrônica, atuei como Chefe da Seção de Tecnologia da Informação. Com a equipe, pude vivenciar na prática a metodologia Scrum. Desenvolvemos e implementamos ferramentas de Gestão de Sistemas e Cibersegurança, utilizando soluções como Proxmox, Graylog, PfSense e Security Onion. Além disso, lidamos com diversas ferramentas de administração de sistemas e segurança cibernética.  
 
-## Head of Justice and Law Section
-`(july 2020 - dec 2022)`
+## Chefe da Seção de Justiça e Disciplina  
+`(jul 2020 - dez 2022)`  
 
-As head of the Justice and Discipline Section of the 9th Communications and Electronic Warfare Battalion, I was responsible for administering, managing and resolving all administrative processes related to the Battalion. Managed the investigation scale, administrative processes, documents verifying the validity and veracity of documents, and processes mapping.
+Como Chefe da Seção de Justiça e Disciplina do 9º Batalhão de Comunicações e Guerra Eletrônica, fui responsável por administrar, gerenciar e solucionar todos os processos administrativos relacionados ao batalhão. Entre as atividades, destaque para a gestão de escalas de sindicância, condução de processos administrativos, análise de documentos e verificação de sua validade e autenticidade, além do mapeamento de processos.  
 
-## Head of Communications Section
-`july 2019 - jun 2020`
+## Chefe da Seção de Comunicações  
+`(jul 2019 - jun 2020)`  
 
-At the Administration and Support Base of the Western Military Command, I was in charge of the Communications Section, responsible for the availability and operability of all Motorola APX 2000 radios for the internal services at Fort Pantanal. I also worked on training reservists, giving instructions on a wide range of topics related to army activities for soldiers.
+Na Base de Administração e Apoio do Comando Militar do Oeste, fui responsável pela Seção de Comunicações, garantindo a disponibilidade e operabilidade de todos os rádios Motorola APX 2000 utilizados nos serviços internos do Forte Pantanal. Também atuei na capacitação de reservistas, ministrando instruções sobre diversos tópicos relacionados às atividades do Exército para os soldados.  
 
-## Commander of Communications Platoon
-`july 2018 - jun 2019`
+## Comandante do Pelotão de Comunicações  
+`(jul 2018 - jun 2019)`  
 
-As Commander of the Communications Platoon of the 20th Armored Cavalry Regiment, Campo Grande, MS, I was developing leadership and teamwork attributes to carry out the daily and major missions carried out within the regiment. In the platoon, we worked providing the link and maintenance of infoways spread throughout the Midwest, we also had Motorola and Harris radio equipment and carried out the maintenance and configuration of this equipment.
+Como Comandante do Pelotão de Comunicações do 20º Regimento de Cavalaria Blindado, em Campo Grande, MS, desenvolvi atributos de liderança e trabalho em equipe para cumprir as missões diárias e principais do regimento. No pelotão, trabalhamos na manutenção de enlaces e vias de comunicação espalhadas pela região Centro-Oeste, utilizando equipamentos de rádio Motorola e Harris, além de realizar sua manutenção e configuração.  
