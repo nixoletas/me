@@ -6,11 +6,7 @@ import Link from '@docusaurus/Link';
 const BigButton = () => {
   return (
     <Link
-<<<<<<< HEAD
       to='/docs/experience'
-=======
-      to='/portfolio/projects'
->>>>>>> 3a60f48166f10a00bb1a52ccb71f3d455c33dbcf
       style={{
         display: 'inline-block',
         justifyContent: 'center',
