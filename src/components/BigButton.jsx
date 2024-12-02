@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const BigButton = () => {
   return (
     <Link
-      to='/docs/experience'
+      to='/portfolio/experience'
       style={{
         display: 'inline-block',
         justifyContent: 'center',
