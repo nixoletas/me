@@ -4,8 +4,14 @@ description: Find your perfect board game to play with your friends!
 ---
 
 import { CodeButton } from '../../src/components/CodeButton';
-import { DemoButton } from '../../src/components/DemoButton'; 
+import { DemoButton } from '../../src/components/DemoButton';
+import { Tag } from '../../src/components/Tag';
 import { Justify } from '../../src/components/Justify';
+
+<div style={{marginBottom: "1rem"}}>
+<Tag docLink="https://flask.palletsprojects.com/en/stable/">Flask</Tag>
+<Tag docLink="https://www.python.org/docs/">Python</Tag>
+</div>
 
 <DemoButton liveLink="https://onboardsgame.com/"/>
 

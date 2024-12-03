@@ -5,7 +5,14 @@ description: Battalion's intranet made with Angular and Strapi
 
 import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
+import { Tag } from '../../src/components/Tag';
 import { Justify } from '../../src/components/Justify';
+
+<div style={{marginBottom: "1rem"}}>
+<Tag docLink="https://angular.dev/">Angular</Tag>
+<Tag docLink="https://strapi.io/">Strapi</Tag>
+<Tag docLink="https://expressjs.com/">Express</Tag>
+</div>
 
 <CodeButton codeLink="https://github.com/nixoletas/intranet-govbr"/>
 <DemoButton liveLink="https://nixoletas.github.io/intranet-govbr"/>

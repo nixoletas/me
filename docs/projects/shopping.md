@@ -4,8 +4,13 @@ description: A quick and easy shopping list
 ---
 
 import { CodeButton } from '../../src/components/CodeButton';
-import { DemoButton } from '../../src/components/DemoButton'; 
+import { DemoButton } from '../../src/components/DemoButton';
+import { Tag } from '../../src/components/Tag';
 import { Justify } from '../../src/components/Justify';
+
+<div style={{marginBottom: "1rem"}}>
+<Tag docLink="https://firebase.google.com/?hl=pt-br">Firebase</Tag>
+</div>
 
 <CodeButton codeLink="https://github.com/nixoletas/shoplist-firebase"/>
 <DemoButton liveLink="https://lista-de-compras-nick.netlify.app/"/>
