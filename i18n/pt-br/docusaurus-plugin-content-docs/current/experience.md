@@ -1,29 +1,23 @@
----  
-title: Experiência  
-sidebar_position: 2  
----  
+---
+title: Experiência
+sidebar_position: 2
+---
 
-## Comandante do Pelotão de Sistemas  
-`(jun 2023 - atual)`  
+## Chefe da Seção de Tecnologia da Informação <img src="/img/brasao.png" width="20" style={{verticalAlign: "middle"}}></img>
+`(mar 2023 - atual)`
 
-Como Comandante do Pelotão de Sistemas, trabalhei em conjunto com a equipe na gestão e manutenção dos sistemas de Comando e Controle do Exército Brasileiro. Também desenvolvi aplicações web em React.js para otimizar e facilitar a navegação entre diversos sistemas distintos.  
+Como chefe da Seção de TI, gerenciei a equipe responsável pela manutenção, suporte e administração de todos os equipamentos e serviços do batalhão. Tive a oportunidade de implementar uma nova página da intranet seguindo o padrão governamental GovBr utilizando Angular e Strapi. Também trabalhei no aprimoramento da redundância e alta disponibilidade para sistemas Linux e aplicações Docker, gerenciando backups e implementando ferramentas Open Source internamente. As tecnologias utilizadas incluíram Proxmox, PfSense, SecurityOnion, Graylog, Zabbix, CFTV, Pihole DNS, Nginx Reverse Proxy, Linux, Apache, Windows Server, Nginx, Joomla, PHP, Laravel, Postgres, MySQL, LDAP, Grafana e Samba.
 
-## Chefe da Seção de Tecnologia da Informação  
-`(jan 2023 - mai 2023)`  
+---
 
-No 9º Batalhão de Comunicações e Guerra Eletrônica, atuei como Chefe da Seção de Tecnologia da Informação. Com a equipe, pude vivenciar na prática a metodologia Scrum. Desenvolvemos e implementamos ferramentas de Gestão de Sistemas e Cibersegurança, utilizando soluções como Proxmox, Graylog, PfSense e Security Onion. Além disso, lidamos com diversas ferramentas de administração de sistemas e segurança cibernética.  
+## Chefe da Carteira de Justiça e Disciplina <img src="/img/brasao.png" width="20" style={{verticalAlign: "middle"}}></img>
+`(jul 2020 - mar 2023)`
 
-## Chefe da Seção de Justiça e Disciplina  
-`(jul 2020 - dez 2022)`  
+Como chefe da Seção de Justiça e Disciplina do 9º Batalhão de Comunicações e Guerra Eletrônica, fui responsável por administrar, gerenciar e resolver todos os processos administrativos relacionados ao Batalhão. Gerenciei a escala de investigações, processos administrativos, documentos verificando a validade e veracidade de documentos e o mapeamento de processos.
 
-Como Chefe da Seção de Justiça e Disciplina do 9º Batalhão de Comunicações e Guerra Eletrônica, fui responsável por administrar, gerenciar e solucionar todos os processos administrativos relacionados ao batalhão. Entre as atividades, destaque para a gestão de escalas de sindicância, condução de processos administrativos, análise de documentos e verificação de sua validade e autenticidade, além do mapeamento de processos.  
+---
 
-## Chefe da Seção de Comunicações  
-`(jul 2019 - jun 2020)`  
+## Comandante do Pelotão de Comunicações <img src="/img/brasao.png" width="20" style={{verticalAlign: "middle"}}></img>
+`jun 2018 - jun 2020`
 
-Na Base de Administração e Apoio do Comando Militar do Oeste, fui responsável pela Seção de Comunicações, garantindo a disponibilidade e operabilidade de todos os rádios Motorola APX 2000 utilizados nos serviços internos do Forte Pantanal. Também atuei na capacitação de reservistas, ministrando instruções sobre diversos tópicos relacionados às atividades do Exército para os soldados.  
-
-## Comandante do Pelotão de Comunicações  
-`(jul 2018 - jun 2019)`  
-
-Como Comandante do Pelotão de Comunicações do 20º Regimento de Cavalaria Blindado, em Campo Grande, MS, desenvolvi atributos de liderança e trabalho em equipe para cumprir as missões diárias e principais do regimento. No pelotão, trabalhamos na manutenção de enlaces e vias de comunicação espalhadas pela região Centro-Oeste, utilizando equipamentos de rádio Motorola e Harris, além de realizar sua manutenção e configuração.  
+No 20º Regimento de Cavalaria Blindado de Campo Grande/MS, fui responsável pelo comando do Pelotão de Comunicações, que contava com cerca de 30 pessoas. Nós éramos responsáveis pela configuração e operação de todos os rádios Motorola e Harris da unidade. Esse papel me ajudou a desenvolver muitas das minhas habilidades de liderança e gestão de pessoas.
