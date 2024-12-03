@@ -1,8 +1,8 @@
 {
-  "label": "Projects",
+  "label": "Projetos",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Every project i've built so far."
+    "description": "Todos projetos que construí até agora."
   }
 }
