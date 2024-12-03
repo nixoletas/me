@@ -3,6 +3,7 @@ import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import Link from '@docusaurus/Link';
 
 export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }) => {
     return (
@@ -18,7 +19,7 @@ export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }
             justifyContent: "center"
         }}>
             <div style={{ flex: "1" }}>
-                <a href={projectLink}>
+                <Link to={projectLink}>
                 <img src={imgSrc} alt="Project Thumbnail" style={{
                     width: "400px", // Fixed width
                     height: "150px", // Fixed height
@@ -30,7 +31,7 @@ export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }
                 onMouseEnter={e => e.currentTarget.style.transform = "scale(1.05)"}
                 onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                 />
-                </a>
+                </Link>
             </div>
             <div style={{
                 flex: "2", 
