@@ -1,5 +1,5 @@
 ---
-title: OnBoardsGame
+title: QR Code Entrance/Exit
 description: Find your perfect board game to play with your friends!
 ---
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import { CodeButton } from '../../src/components/CodeButton';
 import { DemoButton } from '../../src/components/DemoButton'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }) => {
     return (
@@ -50,8 +52,16 @@ export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }
                     {description}
                 </p>
                 <div style={{ display: "flex", gap: "1rem" }}>
-                    <CodeButton codeLink={repo} />
-                    <DemoButton liveLink={demo} />
+                    {repo ? (
+                        <CodeButton codeLink={repo} />
+                    ) : (
+                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Private <FontAwesomeIcon icon={faCode} /></p>
+                    )}
+                    {demo ? (
+                        <DemoButton liveLink={demo} />
+                    ) : (
+                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Unavailable <FontAwesomeIcon icon={faCode} /></p>
+                    )}
                 </div>
             </div>
 
