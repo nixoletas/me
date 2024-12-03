@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Education
 
-### Superior Technology degree of Systems Development & Analysis <img src="/img/descomplica-logo.png" width="50" style={{verticalAlign: "middle"}}></img>
+### Systems Development & Analysis Degree <img src="/img/descomplica-logo.png" width="50" style={{verticalAlign: "middle"}}></img>
 - Faculdade Descomplica (jun 2021 - oct 2024)
 
 ---
@@ -15,7 +15,7 @@ sidebar_position: 3
 
 ---
 
-### AWS Academy Graduate - AWS Academy Introduction to Cloud <img src="/img/aws-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
+### AWS Academy Graduate - Introduction to Cloud <img src="/img/aws-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
 - Amazon Web Services (may 2024)
 
 ---
