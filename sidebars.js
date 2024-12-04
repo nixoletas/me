@@ -15,7 +15,8 @@ const sidebars = {
         'projects/onboardsgame',
         'projects/shopping',
         'projects/entrance-exit',
-        'projects/famsecurity'
+        'projects/famsecurity',
+        'projects/todo'
       ],
     },
   ],

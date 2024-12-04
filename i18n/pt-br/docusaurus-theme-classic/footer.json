@@ -17,15 +17,15 @@
   },
   "link.item.label.Experience": {
     "message": "Experiência",
-    "description": "The label of footer link with label=Experience linking to /docs/experience"
+    "description": "The label of footer link with label=Experience linking to /portfolio/experience"
   },
   "link.item.label.Education": {
     "message": "Educação",
-    "description": "The label of footer link with label=Education linking to /docs/education"
+    "description": "The label of footer link with label=Education linking to /portfolio/education"
   },
   "link.item.label.Projects": {
     "message": "Projetos",
-    "description": "The label of footer link with label=Projects linking to /docs/category/projects"
+    "description": "The label of footer link with label=Projects linking to /portfolio/projects"
   },
   "link.item.label.Youtube": {
     "message": "Youtube",
@@ -46,5 +46,17 @@
   "copyright": {
     "message": "Copyright © 2024 Portfolio de Nick Miyasato. Construído com Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/nixoletas"
+  },
+  "link.item.label.Likedin": {
+    "message": "Likedin",
+    "description": "The label of footer link with label=Likedin linking to https://linkedin.com/in/nixoletas"
+  },
+  "link.item.label.Soundcloud": {
+    "message": "Soundcloud",
+    "description": "The label of footer link with label=Soundcloud linking to https://soundcloud.com/soundcloud"
   }
 }

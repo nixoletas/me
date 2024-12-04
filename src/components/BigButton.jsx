@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faList, faSuitcase } from '@fortawesome/free-solid-svg-icons';
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 
 const BigButton = () => {
   return (
@@ -31,7 +32,7 @@ const BigButton = () => {
         e.currentTarget.style.transform = 'scale(1)';
       }}
     >
-      About me <FontAwesomeIcon icon={faSuitcase} />
+      <Translate id="bigbutton.translation.id" description="big button"> About me</Translate> <FontAwesomeIcon icon={faSuitcase} />
     </Link>
   );
 };

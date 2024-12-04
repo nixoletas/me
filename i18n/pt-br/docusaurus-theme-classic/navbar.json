@@ -5,7 +5,7 @@
   },
   "logo.alt": {
     "message": "logo de nick miyasato",
-    "description": "logo de nick miyasato"
+    "description": "The alt text of navbar logo"
   },
   "item.label.About me": {
     "message": "Sobre mim",
@@ -13,7 +13,7 @@
   },
   "item.label.Blog": {
     "message": "Blog",
-    "description": "Essa é a seção do blog"
+    "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
     "message": "GitHub",
