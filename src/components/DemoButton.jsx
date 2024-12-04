@@ -19,6 +19,6 @@ export const DemoButton = ({liveLink}) => (
     e.currentTarget.style.color = "var(--ifm-color-primary)";
   }}
 >
-              Live <FontAwesomeIcon icon={faWindowMaximize} />
+              Live <FontAwesomeIcon icon={faWindowMaximize} width={15}/>
             </a>
   );

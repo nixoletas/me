@@ -12,6 +12,7 @@ import { Justify } from '../../src/components/Justify';
 <Tag docLink="https://angular.dev/">Angular</Tag>
 <Tag docLink="https://strapi.io/">Strapi</Tag>
 <Tag docLink="https://expressjs.com/">Express</Tag>
+<Tag docLink="https://www.gov.br/ds/home">govbr-ds</Tag>
 </div>
 
 <CodeButton codeLink="https://github.com/nixoletas/intranet-govbr"/>

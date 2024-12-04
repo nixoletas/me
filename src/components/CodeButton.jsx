@@ -19,6 +19,6 @@ export const CodeButton = ({codeLink}) => (
     e.currentTarget.style.color = "var(--ifm-color-primary)";
   }}
 >
-  Code <FontAwesomeIcon icon={faCode} />
+  Code <FontAwesomeIcon icon={faCode} width={15} />
 </a>
   );

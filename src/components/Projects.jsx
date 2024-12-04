@@ -56,12 +56,12 @@ export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }
                     {repo ? (
                         <CodeButton codeLink={repo} />
                     ) : (
-                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Private <FontAwesomeIcon icon={faCode} /></p>
+                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Private <FontAwesomeIcon icon={faCode} width={15} /></p>
                     )}
                     {demo ? (
                         <DemoButton liveLink={demo} />
                     ) : (
-                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Unavailable <FontAwesomeIcon icon={faCode} /></p>
+                        <p style={{color: 'grey', userSelect: 'none', cursor: 'not-allowed'}}>Unavailable <FontAwesomeIcon icon={faCode} width={15} /></p>
                     )}
                 </div>
             </div>

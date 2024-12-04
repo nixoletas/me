@@ -12,6 +12,7 @@ import { Justify } from '../../../../../src/components/Justify';
 <Tag docLink="https://angular.dev/">Angular</Tag>
 <Tag docLink="https://strapi.io/">Strapi</Tag>
 <Tag docLink="https://expressjs.com/">Express</Tag>
+<Tag docLink="https://www.gov.br/ds/home">govbr-ds</Tag>
 </div>
 
 <CodeButton codeLink="https://github.com/nixoletas/intranet-govbr"/>
@@ -45,15 +46,14 @@ Angular é um framework maduro que permite a criação de Single-Page Applicatio
 O Angular CLI agiliza o trabalho do desenvolvedor, criando componentes, serviços e pipes de maneira muito simples e rápida.
 
 criar novo componente
+```
 ng g c nome-do-componente
-
-Copiar código
+```
 
 criar novo serviço
+```
 ng g s nome-do-serviço
-
-kotlin
-Copiar código
+```
 
 ### Como foi implementado
 ---
