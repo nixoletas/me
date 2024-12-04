@@ -1,6 +1,6 @@
 ---
 title: QR Code Entrance/Exit
-description: Find your perfect board game to play with your friends!
+description: QR Code scanner app for entrance registration
 ---
 
 import { CodeButton } from '../../src/components/CodeButton';
