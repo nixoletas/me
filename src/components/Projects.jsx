@@ -7,17 +7,7 @@ import Link from '@docusaurus/Link';
 
 export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }) => {
     return (
-        <section style={{
-            display: "flex", 
-            gap: "2rem", 
-            flexWrap: "wrap", 
-            alignItems: "center",
-            padding: "2rem",
-            borderRadius: "1rem",
-            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
-            flexDirection: "row",
-            justifyContent: "center"
-        }}>
+        <section>
             <div style={{ flex: "1" }}>
                 <Link to={projectLink}>
                 <img src={imgSrc} alt="Project Thumbnail" style={{
@@ -65,43 +55,6 @@ export const Projects = ({ title, description, imgSrc, repo, demo, projectLink }
                     )}
                 </div>
             </div>
-
-            {/* Responsive Styles */}
-            <style jsx>{`
-                @media (max-width: 768px) {
-                    section {
-                        flex-direction: column;
-                        padding: 1rem;
-                    }
-
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-
-                    h2 {
-                        font-size: 1.5rem;
-                    }
-
-                    p {
-                        font-size: 1rem;
-                    }
-
-                    div {
-                        width: 100%;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    h2 {
-                        font-size: 1.2rem;
-                    }
-
-                    p {
-                        font-size: 0.9rem;
-                    }
-                }
-            `}</style>
         </section>
     );
 };
