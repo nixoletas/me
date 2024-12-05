@@ -21,7 +21,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           <Translate>Hi, I'm Nick.</Translate>
         </Heading>
-        <img src="/img/github-profile.jpg" alt="GitHub" style={{width:"140px", height:"140px", marginLeft:"10px", borderRadius:"4rem"}} />
+        <img src="/me/img/github-profile.jpg" alt="GitHub" style={{width:"140px", height:"140px", marginLeft:"10px", borderRadius:"4rem"}} />
         <p className="hero__subtitle"><Translate>I'm a Software Developer, Musician and Designer.</Translate></p>
         <div className={styles.buttons}>
           <Link
