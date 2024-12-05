@@ -75,43 +75,10 @@ section {
   justify-content: center;
 }
 
+
+
 @media (max-width: 768px) {
   section {
       flex-direction: column;
-  }
-
-  img {
-      width: 100%;
-      height: auto;
-  }
-
-  h2 {
-      font-size: 1.5rem;
-  }
-
-  p {
-      font-size: 1rem;
-  }
-
-  div {
-      width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  h2 {
-      font-size: 1.2rem;
-  }
-
-  p {
-      font-size: 0.9rem;
-  }
-  img {
-  width: 400px;
-  height: 150px;
-  object-fit: cover;
-  border: 2px solid #d3d3d3;
-  border-radius: 1rem;
-  transition: transform 0.3s ease
   }
 }
