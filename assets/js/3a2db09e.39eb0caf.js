@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknixoletas_blog=self.webpackChunknixoletas_blog||[]).push([[121],{8070:o=>{o.exports=JSON.parse('{"tags":[{"label":"portfolio","permalink":"/blog/tags/portfolio","count":1},{"label":"docusaurus","permalink":"/blog/tags/docusaurus","count":1}]}')}}]);
