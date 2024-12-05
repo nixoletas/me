@@ -20,7 +20,7 @@ sidebar_position: 3
 
 ---
 
-### Orientação a Objetos em Java <img src="https://www.alura.com.br/assets/me/img/home/alura-logo.1720710818.svg" width="50" style={{verticalAlign: "middle"}}></img>
+### Orientação a Objetos em Java <img src="https://www.alura.com.br/assets/img/home/alura-logo.1730889067.svg" width="50" style={{verticalAlign: "middle"}}></img>
 - Alura - Formação Aprenda a programar em Java com Orientação a Objetos (fev 2024)
 
 ---
