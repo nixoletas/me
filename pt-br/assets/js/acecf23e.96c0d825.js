@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknixoletas_blog=self.webpackChunknixoletas_blog||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/pt-br/blog","blogTitle":"Blog","authorsListPath":"/pt-br/blog/authors"}')}}]);
