@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/pt-br/blog</id>
+    <id>https://nixoletas.github.io/pt-br/blog</id>
     <title>Nixoletas Blog</title>
     <updated>2024-10-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/pt-br/blog"/>
+    <link rel="alternate" href="https://nixoletas.github.io/pt-br/blog"/>
     <subtitle>Nixoletas Blog</subtitle>
-    <icon>https://github.com/pt-br/img/logo_nixoletas.png</icon>
+    <icon>https://nixoletas.github.io/pt-br/img/logo_nixoletas.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://github.com/pt-br/blog/welcome</id>
-        <link href="https://github.com/pt-br/blog/welcome"/>
+        <id>https://nixoletas.github.io/pt-br/blog/welcome</id>
+        <link href="https://nixoletas.github.io/pt-br/blog/welcome"/>
         <updated>2024-10-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hi! I'm Nick. I have a beautiful wife and a beautiful daughter.]]></summary>
         <content type="html"><![CDATA[<p>Hi! I'm Nick. I have a beautiful wife and a beautiful daughter.</p>]]></content>
