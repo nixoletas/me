@@ -9,7 +9,7 @@ import { Tag } from '../../../../../src/components/Tag';
 import { Justify } from '../../../../../src/components/Justify';
 
 <div style={{marginBottom: "1rem"}}>
-<Tag docLink="https://reactdev">React</Tag>
+<Tag docLink="https://react.dev">React</Tag>
 </div>
 
 <CodeButton codeLink="https://github.com/nixoletas/react-todo-list"/>
