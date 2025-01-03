@@ -5,30 +5,33 @@ sidebar_position: 3
 
 # Education
 
-### Systems Development & Analysis Degree <img src="/me/img/descomplica-logo.png" width="50" style={{verticalAlign: "middle"}}></img>
+### Systems Development & Analysis Degree
 - Faculdade Descomplica (jun 2021 - oct 2024)
 
----
-
-### Cisco CCNA 1 & 2 <img src="/me/img/cisco-logo.png" width="50" style={{verticalAlign: "middle"}}></img> <img src="/me/img/senac-logo.png" width="50" style={{verticalAlign: "middle"}}></img>
-- SENAC (2018)
+### Postgraduate in Cybersecurity
+- Faculdade Descomplica (jan 2025 - now)
 
 ---
 
-### AWS Academy Graduate - Introduction to Cloud <img src="/me/img/aws-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
+### Cisco CCNA 1,2 & 3
+- Cisco Network Academy
+
+---
+
+### AWS Academy Graduate - Introduction to Cloud
 - Amazon Web Services (may 2024)
 
 ---
 
-### Java Object Orientation <img src="https://www.alura.com.br/assets/img/home/alura-logo.1730889067.svg" width="50" style={{verticalAlign: "middle"}}></img>
+### Java Object Orientation
 - Alura - Formação Aprenda a programar em Java com Orientação a Objetos (feb 2024)
 
 ---
 
-### Business Inteligence with Power BI <img src="/me/img/senai-logo.png" width="50" style={{verticalAlign: "middle"}}></img>
+### Business Inteligence with Power BI
 - SENAI (jan 2023)
 
 ---
 
-### Cybersecurity Essentials <img src="/me/img/fiap-logo.png" width="40" style={{verticalAlign: "middle"}}></img>
+### Cybersecurity Essentials
 - FIAP (jun 2022)
