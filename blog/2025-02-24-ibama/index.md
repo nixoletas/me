@@ -1,13 +1,17 @@
 ---
 slug: Concurso do IBAMA
-title: Estudo concurso do IBAMA
+title: Concurso do IBAMA
 authors: [nixoletas]
 tags: [concurso, ibama]
 ---
 
+Esse blogpost transcreve os detalhes do cargo de analista administrativo do concurso do IBAMA.
+
+<!-- truncate -->
+
 <div style={{textAlign:'justify'}}>
+
 ## Cargo de Analista Administrativo
----
 
 **REQUISITO**: diploma, devidamente registrado, de conclusão de graduação em nível superior ou habilitação legal equivalente em qualquer área de formação, fornecido por instituição de ensino superior reconhecida pelo Ministério da Educação (MEC).
 
