@@ -1,22 +1,21 @@
 const sidebars = {
-
   tutorialSidebar: [
-    'experience',
-    'education',
+    "experience",
+    "education",
     {
-      type: 'category',
-      label: 'Projects',
+      type: "category",
+      label: "Projects",
       link: {
-        type: 'doc',
-        id: 'projects/projects'
+        type: "doc",
+        id: "projects/projects",
       },
       items: [
-        'projects/intranet',
-        'projects/onboardsgame',
-        'projects/shopping',
-        'projects/entrance-exit',
-        'projects/famsecurity',
-        'projects/todo'
+        "projects/intranet",
+        "projects/futevento",
+        "projects/shopping",
+        "projects/entrance-exit",
+        "projects/famsecurity",
+        "projects/todo",
       ],
     },
   ],
