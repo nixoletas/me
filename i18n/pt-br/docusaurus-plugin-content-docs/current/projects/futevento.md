@@ -1,5 +1,5 @@
 ---
-title: OnBoardsGame
+title: Fut Evento
 description: Encontre seu jogo de tabuleiro ideal para cada momento!
 ---
 
@@ -20,32 +20,35 @@ import { Justify } from '../../../../../src/components/Justify';
 ![govbr-screenc](\img\projects\onboardsgame.png)
 
 # Sobre o projeto
+
 ---
+
 <Justify>
-Este projeto foi feito para um amigo meu. Ele reuniu dados de jogos de tabuleiro em uma planilha do Excel e queria permitir que as pessoas preenchessem um formulário simples para encontrar o jogo de tabuleiro perfeito para elas!  
+Este projeto foi feito para um amigo meu. Ele reuniu dados de jogos de tabuleiro em uma planilha do Excel e queria permitir que as pessoas preenchessem um formulário simples para encontrar o jogo de tabuleiro perfeito para elas!
 
-### O Formulário  
+### O Formulário
 
-- **Número de jogadores**  
-- **Tempo de jogo**  
-- **Nível de dificuldade**  
-  - Básico  
-  - Intermediário  
-  - Avançado  
-- **Categoria**  
-  - Festa  
-  - Estratégia  
-  - Guerra  
-  - Família  
-  - Abstrato  
+- **Número de jogadores**
+- **Tempo de jogo**
+- **Nível de dificuldade**
+  - Básico
+  - Intermediário
+  - Avançado
+- **Categoria**
+  - Festa
+  - Estratégia
+  - Guerra
+  - Família
+  - Abstrato
 
-# Tecnologias  
+# Tecnologias
 
-As tecnologias escolhidas foram:  
-- Python  
-- Flask  
-- HTML  
-- CSS  
+As tecnologias escolhidas foram:
+
+- Python
+- Flask
+- HTML
+- CSS
 - JavaScript
 
 </Justify>
