@@ -4,68 +4,69 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `Nixoletas`,
-  tagline: "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽",
-  favicon: 'img/logo_nixoletas.png',
+  tagline:
+    "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽",
+  favicon: "img/logo_nixoletas.png",
 
   // Set the production url of your site here
-  url: 'https://nixoletas.github.io',
+  url: "https://nixoletas.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/me/',
+  baseUrl: "/me/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'nixoletas', // Usually your GitHub org/user name.
-  projectName: 'me', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  organizationName: "nixoletas", // Usually your GitHub org/user name.
+  projectName: "me", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'pt-br'],
+    defaultLocale: "en",
+    locales: ["en", "pt-br"],
     localeConfigs: {
-      'pt-br': {
-        label: 'Português (Brasil)',
-        direction: 'ltr',  // Sentido da escrita (esquerda para direita)
+      "pt-br": {
+        label: "Português (Brasil)",
+        direction: "ltr", // Sentido da escrita (esquerda para direita)
       },
       en: {
-        label: 'English',
-        direction: 'ltr',
+        label: "English",
+        direction: "ltr",
       },
     },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: 'portfolio'
+          sidebarPath: "./sidebars.js",
+          routeBasePath: "portfolio",
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -75,74 +76,74 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo_nixoletas.png',
+      image: "img/logo_nixoletas.png",
       navbar: {
-        title: 'Nixoletas',
+        title: "Nixoletas",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo_nixoletas.png',
+          alt: "My Site Logo",
+          src: "img/logo_nixoletas.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "About",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
-            position: "right"
-          }
+            position: "right",
+          },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'About me',
+            title: "About me",
             items: [
               {
-                label: 'Experience',
-                to: '/portfolio/experience',
+                label: "Experience",
+                to: "/portfolio/experience",
               },
               {
-                label: 'Education',
-                to: '/portfolio/education',
+                label: "Education",
+                to: "/portfolio/education",
               },
               {
-                label: 'Projects',
-                to: '/portfolio/projects',
+                label: "Projects",
+                to: "/portfolio/projects",
               },
             ],
           },
           {
-            title: 'Social Media',
+            title: "Social Media",
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/nixoletas',
+                label: "Github",
+                href: "https://github.com/nixoletas",
               },
               {
-                label: 'Likedin',
-                href: 'https://linkedin.com/in/nixoletas',
+                label: "Likedin",
+                href: "https://linkedin.com/in/nixoletas",
               },
               {
-                label: 'Youtube',
-                href: 'https://youtube.com/nixoletas',
+                label: "Youtube",
+                href: "https://youtube.com/nixoletas",
               },
               {
-                label: 'Soundcloud',
-                href: 'https://soundcloud.com/soundcloud',
+                label: "Soundcloud",
+                href: "https://soundcloud.com/soundcloud",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
