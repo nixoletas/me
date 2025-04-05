@@ -12,6 +12,7 @@ const sidebars = {
       items: [
         "projects/intranet",
         "projects/futevento",
+        "projects/presence-list",
         "projects/shopping",
         "projects/entrance-exit",
         "projects/famsecurity",
