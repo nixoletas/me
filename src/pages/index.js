@@ -9,7 +9,7 @@ import styles from "./index.module.css";
 import Translate from "@docusaurus/Translate";
 import SocialIcons from "../components/SocialIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Grid from "../components/Grid";
 import Shadown from "../components/Shadown";
 
