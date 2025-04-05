@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import ParticlesBackground from "../components/ParticlesBackground";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -16,6 +17,7 @@ function HomepageHeader() {
   return (
     <>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
+        <ParticlesBackground />
         <Grid />
         <div className="container" style={{ zIndex: 1 }}>
           <Heading as="h1" className="hero__title">
