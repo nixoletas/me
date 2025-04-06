@@ -70,9 +70,7 @@ export default function Home() {
   return (
     <Layout title={`Welcome`} description="Nicholas Miyasato Portfolio & Blog">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main></main>
     </Layout>
   );
 }

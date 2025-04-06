@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: `Nixoletas`,
   tagline:
-    "I'm a Software Developer. I like to create things. I like chess, music and soccer. ⚽",
+    "I'm a Software Engineer. Crafting code and building solutions is my passion. ⚽",
   favicon: "img/logo_nixoletas.png",
 
   // Set the production url of your site here
@@ -99,56 +99,8 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "About me",
-            items: [
-              {
-                label: "Experience",
-                to: "/portfolio/experience",
-              },
-              {
-                label: "Education",
-                to: "/portfolio/education",
-              },
-              {
-                label: "Projects",
-                to: "/portfolio/projects",
-              },
-            ],
-          },
-          {
-            title: "Social Media",
-            items: [
-              {
-                label: "Github",
-                href: "https://github.com/nixoletas",
-              },
-              {
-                label: "Likedin",
-                href: "https://linkedin.com/in/nixoletas",
-              },
-              {
-                label: "Youtube",
-                href: "https://youtube.com/nixoletas",
-              },
-              {
-                label: "Soundcloud",
-                href: "https://soundcloud.com/soundcloud",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nick Miyasato Portfolio. Built with Docusaurus.`,
+
+        copyright: `${new Date().getFullYear()} Nick Miyasato Portfolio. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
