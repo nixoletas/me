@@ -16,6 +16,9 @@
   --ifm-code-font-size: 95%;
   --ifm-hero-background-color: #163057;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "JetBrains Mono", monospace;
+  --ifm-heading-font-family: "JetBrains Mono", monospace;
+  --ifm-code-font-family: "JetBrains Mono", monospace;
 
   .hero--primary {
     background-color: white;
@@ -24,12 +27,12 @@
 
   .button {
     background-color: var(--ifm-color-primary-darkest);
-    color:white;
+    color: white;
   }
 
   .button:hover {
     background-color: var(--ifm-color-primary-lightest);
-    color:white;
+    color: white;
   }
 
   .footer {
@@ -38,7 +41,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #2564c2a8;
   --ifm-color-primary-dark: #2136af8c;
   --ifm-color-primary-darker: #1f33a5;
@@ -50,23 +53,269 @@
   .hero--primary {
     background-color: var(--ifm-background-color);
     color: rgba(255, 255, 255, 0.9);
-  };
+  }
 
   .button:hover {
     background-color: var(--ifm-color-primary);
-    color:white;
+    color: white;
   }
 }
 
+/* Apply JetBrains Mono to all text elements */
+body {
+  font-family: "JetBrains Mono", monospace;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust code blocks to use JetBrains Mono */
+code {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust buttons and other UI elements */
+button,
+input,
+textarea,
+select {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust navigation items */
+.navbar__items {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust footer text */
 .footer {
   background-color: var(--ifm-color-primary);
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust sidebar items */
+.menu__list-item {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust card titles and content */
+.card {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust table text */
+table {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust form elements */
+.form-control {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust alert messages */
+.alert {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust badge text */
+.badge {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust pagination */
+.pagination {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust breadcrumbs */
+.breadcrumbs {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust tabs */
+.tabs {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust tooltips */
+.tooltip {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust modal text */
+.modal {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust dropdown menus */
+.dropdown {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust progress bars */
+.progress {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust list items */
+li {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust blockquotes */
+blockquote {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust pre blocks */
+pre {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust kbd elements */
+kbd {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust mark elements */
+mark {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust small text */
+small {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust strong elements */
+strong {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust em elements */
+em {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust abbr elements */
+abbr {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust cite elements */
+cite {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust q elements */
+q {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust time elements */
+time {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust var elements */
+var {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust samp elements */
+samp {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust dfn elements */
+dfn {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust sub and sup elements */
+sub,
+sup {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust del and ins elements */
+del,
+ins {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust bdi and bdo elements */
+bdi,
+bdo {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust ruby elements */
+ruby {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust rt elements */
+rt {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust rp elements */
+rp {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust data elements */
+data {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust meter elements */
+meter {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust progress elements */
+progress {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust output elements */
+output {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust canvas elements */
+canvas {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust template elements */
+template {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust slot elements */
+slot {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Adjust custom elements */
+custom-element {
+  font-family: "JetBrains Mono", monospace;
 }
 
 section {
-  display: flex; 
+  display: flex;
   gap: 2rem;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   padding: 2rem;
   border-radius: 1rem;
@@ -75,10 +324,8 @@ section {
   justify-content: center;
 }
 
-
-
 @media (max-width: 768px) {
   section {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
