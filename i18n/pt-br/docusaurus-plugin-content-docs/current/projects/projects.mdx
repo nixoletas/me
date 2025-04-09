@@ -2,7 +2,25 @@
 title: Projetos
 ---
 
-import { Projects } from "../../../../../src/components/Projects";
+import { Projects } from "@site/src/components/Projects";
+
+<Projects
+  imgSrc="/me/img/projects/vila-bella1.png"
+  title="Shopping Vila Bella"
+  projectLink={"/portfolio/projects/shopping-vila-bella"}
+  description="Uma Landing Page para um Shopping Center fictício chamado Vila Bella"
+  repo={"https://github.com/nixoletas/site-shopping-villa-bella"}
+  demo={"https://shopping-vila-bella.netlify.app/"}
+/>
+
+<Projects
+  imgSrc="/me/img/projects/futevento.png"
+  projectLink={"/portfolio/projects/futevento"}
+  title="Fut Evento"
+  description="Micro SaaS para gerenciar e criar eventos de futebol com Google Auth e Maps API! ⚽"
+  repo={"https://github.com/nixoletas/fut-evento.git"}
+  demo={"https://futevento.com.br"}
+/>
 
 <Projects
   imgSrc="/me/img/intranet-govbr.png"
@@ -11,14 +29,6 @@ import { Projects } from "../../../../../src/components/Projects";
   description="Intranet em produção para meu batalhão feita com (Express | Angular | Strapi)"
   repo={"https://github.com/nixoletas/intranet-govbr"}
   demo={"https://nixoletas.github.io/intranet-govbr"}
-/>
-
-<Projects
-  imgSrc="/me/img/projects/futevento.png"
-  projectLink={"/portfolio/projects/futevento"}
-  title="Fut Evento"
-  description="Crie e gerencie seus eventos de futebol com um clique! ⚽"
-  demo={"https://futevento.com.br"}
 />
 
 <Projects

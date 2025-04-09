@@ -3,13 +3,14 @@ import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import ParticlesBackground from "../components/ParticlesBackground";
+import ProjectShowcase from "../components/ProjectShowcase";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 import Translate from "@docusaurus/Translate";
 import SocialIcons from "../components/SocialIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Grid from "../components/Grid";
 import Shadown from "../components/Shadown";
 
@@ -62,6 +63,7 @@ function HomepageHeader() {
         </div>
         <Shadown />
       </header>
+      <ProjectShowcase />
     </>
   );
 }
@@ -70,7 +72,9 @@ export default function Home() {
   return (
     <Layout title={`Welcome`} description="Nicholas Miyasato Portfolio & Blog">
       <HomepageHeader />
-      <main></main>
+      <main>
+        <HomepageFeatures />
+      </main>
     </Layout>
   );
 }
