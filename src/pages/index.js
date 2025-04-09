@@ -10,7 +10,11 @@ import styles from "./index.module.css";
 import Translate from "@docusaurus/Translate";
 import SocialIcons from "../components/SocialIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBook,
+  faFilePdf,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import Grid from "../components/Grid";
 import Shadown from "../components/Shadown";
 
@@ -51,12 +55,20 @@ function HomepageHeader() {
               <FontAwesomeIcon icon={faBook} width={15} />
             </Link>
             <Link
-              className="button button--primary button--lg"
+              className="button button--secondary button--lg"
               href="/me/Nick_Miyasato.pdf"
               target="_blank"
+              style={{
+                backgroundColor: "#e74c3c",
+                borderColor: "#c0392b",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "8px",
+              }}
             >
-              <Translate>Resume </Translate>
-              <FontAwesomeIcon icon={faEnvelope} width={15} />
+              <Translate>Resume (PDF) </Translate>
+              <FontAwesomeIcon icon={faFilePdf} width={15} />
             </Link>
           </div>
           <SocialIcons />
