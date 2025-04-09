@@ -61,10 +61,39 @@ function HomepageHeader() {
               style={{
                 border: "none",
                 background: "transparent",
+                position: "relative",
+                padding: "0",
+                paddingTop: "1rem",
+                color: "var(--ifm-primary)",
+                textDecoration: "none",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.setProperty("--underline-width", "100%");
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.setProperty("--underline-width", "0%");
               }}
             >
-              <Translate>Resume (PDF) </Translate>
-              <FontAwesomeIcon icon={faFilePdf} width={15} />
+              <span
+                style={{
+                  position: "relative",
+                  display: "inline-block",
+                }}
+              >
+                <Translate>Resume (PDF) </Translate>
+                <FontAwesomeIcon icon={faFilePdf} width={15} />
+                <span
+                  style={{
+                    position: "absolute",
+                    bottom: "-2px",
+                    left: "0",
+                    width: "var(--underline-width, 0%)",
+                    height: "2px",
+                    backgroundColor: "var(--ifm-color-primary)",
+                    transition: "width 0.3s ease",
+                  }}
+                />
+              </span>
             </Link>
           </div>
           <SocialIcons />
