@@ -11,7 +11,7 @@ const config = {
   title: `Nick Miyasato`,
   tagline:
     "I'm a Software Engineer. Crafting code and building solutions is my passion. ⚽",
-  favicon: "img/logo_nixoletas.png",
+  favicon: "img/nick-logo.png",
 
   // Set the production url of your site here
   url: "https://nickmiyasato.netlify.app",
@@ -76,12 +76,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/logo_nixoletas.png",
+      image: "img/nick-logo.png",
       navbar: {
         title: "Nick Miyasato",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo_nixoletas.png",
+          src: "img/nick-logo.png",
         },
         items: [
           {
