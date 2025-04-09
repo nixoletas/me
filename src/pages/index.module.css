@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+#resume {
+  border: none;
+  background-color: transparent;
+}

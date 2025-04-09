@@ -29,7 +29,7 @@ function HomepageHeader() {
             <Translate>Hi, I'm Nick.</Translate>
           </Heading>
           <img
-            src="/me/img/github-profile.jpg"
+            src="/img/github-profile.jpg"
             alt="GitHub"
             style={{
               width: "140px",
@@ -56,15 +56,11 @@ function HomepageHeader() {
             </Link>
             <Link
               className="button button--secondary button--lg"
-              href="/me/Nick_Miyasato.pdf"
+              href="/Nick_Miyasato.pdf"
               target="_blank"
               style={{
-                backgroundColor: "#e74c3c",
-                borderColor: "#c0392b",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "8px",
+                border: "none",
+                background: "transparent",
               }}
             >
               <Translate>Resume (PDF) </Translate>

@@ -64,7 +64,7 @@ const ProjectCard = ({ project, index }) => {
 const ProjectShowcase = () => {
   const projects = [
     {
-      imgSrc: "/me/img/projects/vila-bella1.png",
+      imgSrc: "/img/projects/vila-bella1.png",
       link: "shopping-vila-bella",
       title: "Shopping Vila Bella",
       description: "A fiction landing Page for a Shopping Mall",
@@ -72,7 +72,7 @@ const ProjectShowcase = () => {
       demo: "https://shopping-vila-bella.netlify.app/",
     },
     {
-      imgSrc: "/me/img/projects/futevento.png",
+      imgSrc: "/img/projects/futevento.png",
       link: "futevento",
       title: "Fut Evento",
       description:
@@ -81,7 +81,7 @@ const ProjectShowcase = () => {
       demo: "https://futevento.com.br",
     },
     {
-      imgSrc: "/me/img/intranet-govbr.png",
+      imgSrc: "/img/intranet-govbr.png",
       link: "intranet",
       title: "Intranet GovBR",
       description:
