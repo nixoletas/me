@@ -33,7 +33,7 @@ const ProjectCard = ({ project, index }) => {
               rel="noopener noreferrer"
               className={styles.linkButton}
             >
-              Código
+              Code
             </a>
           )}
           {project.demo && (
