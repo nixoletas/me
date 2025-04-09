@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: `Nixoletas`,
+  title: `Nick Miyasato`,
   tagline:
     "I'm a Software Engineer. Crafting code and building solutions is my passion. ⚽",
   favicon: "img/logo_nixoletas.png",
@@ -78,7 +78,7 @@ const config = {
       // Replace with your project's social card
       image: "img/logo_nixoletas.png",
       navbar: {
-        title: "Nixoletas",
+        title: "Nick Miyasato",
         logo: {
           alt: "My Site Logo",
           src: "img/logo_nixoletas.png",
