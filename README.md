@@ -1,8 +1,13 @@
 # My Personal Website & Portfolio
 
+![nick-logo](https://github.com/user-attachments/assets/ffcb56b8-a4ae-4cdc-8800-f8978fd20fe1)
+
+
 A modern, responsive personal website and portfolio built with Docusaurus, showcasing my projects, skills, and professional journey.
 
-![Website Preview](https://raw.githubusercontent.com/nixoletas/me/main/static/img/preview.png)
+![me](https://github.com/user-attachments/assets/fae9aadc-5acd-4bdc-a2f6-7bb886a998b3)
+![me2](https://github.com/user-attachments/assets/584f7fdb-e80a-4740-85c1-055899d39d20)
+
 
 ## 🌟 Features
 
