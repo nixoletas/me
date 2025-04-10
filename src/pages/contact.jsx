@@ -18,7 +18,7 @@ const ContactPage = () => {
       .join("&");
   };
 
-  const handleSubmit = (e) => {
+  handleSubmit = (e) => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -30,7 +30,7 @@ const ContactPage = () => {
     e.preventDefault();
   };
 
-  const handleChange = (e) => setState({ [e.target.name]: e.target.value });
+  handleChange = (e) => setState({ [e.target.name]: e.target.value });
 
   return (
     <Layout title="Contact" description="Contact form">
