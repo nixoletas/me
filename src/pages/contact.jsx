@@ -44,7 +44,7 @@ const ContactPage = () => {
             {status.message}
           </div>
         )}
-        <form onSubmit={handleSubmit} className={styles.contactForm} netlify>
+        <form name="contact" className={styles.contactForm} netlify>
           <div className={styles.formGroup}>
             <label htmlFor="name">
               <Translate id="contact.name.label">Name</Translate>
