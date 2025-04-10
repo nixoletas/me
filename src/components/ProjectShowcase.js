@@ -113,7 +113,12 @@ const ProjectShowcase = () => {
         ))}
       </div>
       <div className={styles.moreButtonContainer}>
-        <Link to="/portfolio/projects/" className={styles.moreButton}>
+        <Link
+          to="/portfolio/projects/"
+          className={styles.moreButton}
+          aria-label="View all projects"
+          title="View all projects"
+        >
           <Translate>More</Translate>
         </Link>
       </div>
