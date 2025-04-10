@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Layout from "@theme/Layout";
+import Translate from "@docusaurus/Translate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import styles from "./contact.module.css";
@@ -13,12 +14,6 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can add your form submission logic
-    window.location.href = `mailto:nick.miyasato.dev@gmail.com?subject=${encodeURIComponent(
-      formData.subject
-    )}&body=${encodeURIComponent(
-      `Name: ${formData.name}\n\nMessage: ${formData.message}`
-    )}`;
   };
 
   const handleChange = (e) => {
@@ -32,11 +27,14 @@ const ContactPage = () => {
     <Layout title="Contact" description="Contact form">
       <main className={styles.contactContainer}>
         <h1>
-          Contact Me <FontAwesomeIcon icon={faTelegram} />
+          <Translate id="contact.title">Contact Me</Translate>{" "}
+          <FontAwesomeIcon icon={faTelegram} width={20} height={20} />
         </h1>
         <form onSubmit={handleSubmit} className={styles.contactForm}>
           <div className={styles.formGroup}>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">
+              <Translate id="contact.name.label">Name</Translate>
+            </label>
             <input
               type="text"
               id="name"
@@ -47,7 +45,9 @@ const ContactPage = () => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="subject">Subject</label>
+            <label htmlFor="subject">
+              <Translate id="contact.subject.label">Subject</Translate>
+            </label>
             <input
               type="text"
               id="subject"
@@ -58,7 +58,9 @@ const ContactPage = () => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">
+              <Translate id="contact.message.label">Message</Translate>
+            </label>
             <textarea
               id="message"
               name="message"
@@ -68,7 +70,7 @@ const ContactPage = () => {
             />
           </div>
           <button type="submit" className={styles.submitButton}>
-            Send Message
+            <Translate id="contact.submit">Send Message</Translate>
           </button>
         </form>
       </main>
