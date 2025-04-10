@@ -29,7 +29,7 @@ function HomepageHeader() {
             <Translate>Hi, I'm Nick.</Translate>
           </Heading>
           <img
-            src="/img/github-profile.jpg"
+            src="/img/nick-logo.png"
             alt="GitHub"
             style={{
               width: "140px",
