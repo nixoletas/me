@@ -1,41 +1,83 @@
-# Website
+# My Personal Website & Portfolio
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A modern, responsive personal website and portfolio built with Docusaurus, showcasing my projects, skills, and professional journey.
+
+![Website Preview](https://raw.githubusercontent.com/nixoletas/me/main/static/img/preview.png)
+
+## 🌟 Features
+
+- **Modern Design**: Clean, responsive layout with smooth animations
+- **Project Showcase**: Interactive project cards with live demos
+- **Skills Section**: Visual representation of technical expertise
+- **Experience Timeline**: Chronological display of professional journey
+- **Contact Form** (soon): Easy way for visitors to get in touch
+- **Multi-language Support**: Built-in translation capabilities
+- **SEO Optimized**: Enhanced visibility for search engines
+- **Performance Focused**: Fast loading times and smooth interactions
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Docusaurus](https://docusaurus.io/)
+- **Styling**: CSS Modules, Custom CSS
+- **Animations**: Framer Motion
+- **Icons**: Font Awesome
+- **Deployment**: Netlify
+- **Domain**: registro.br
+- **Analytics** (soon): Google Analytics
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
 
 ### Installation
 
-```
-$ yarn
-```
+1. Clone the repository:
 
-### Local Development
+   ```bash
+   git clone https://github.com/nixoletas/me.git
+   cd me
+   ```
 
-```
-$ yarn start
-```
+2. Install dependencies:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### Build
+3. Start the development server:
 
-```
-$ yarn build
-```
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
+## 📁 Project Structure
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+me/
+├── src/
+│   ├── components/     # React components
+│   ├── css/           # Global styles
+│   ├── pages/         # Main pages
+│   └── data/          # Project data
+├── static/            # Static assets
+└── docs/              # Documentation
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 🎨 Customization
+
+For customizing this website and making your own portfolio, i recommend you checkout Docusaurus official documentation at [https://docusaurus.io/docs](https://docusaurus.io/docs)
+
+## 📫 Contact
+
+- Website: [nixoletas.com](https://nixoletas.com)
+- LinkedIn: [linkedin.com/in/nixoletas](https://linkedin.com/in/nixoletas)
+- GitHub: [github.com/nixoletas](https://github.com/nixoletas)
