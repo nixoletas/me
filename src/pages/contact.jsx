@@ -44,52 +44,18 @@ const ContactPage = () => {
             {status.message}
           </div>
         )}
-        <form name="contact" className={styles.contactForm} netlify>
-          <div className={styles.formGroup}>
-            <label htmlFor="name">
-              <Translate id="contact.name.label">Name</Translate>
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className={styles.formGroup}>
-            <label htmlFor="subject">
-              <Translate id="contact.subject.label">Subject</Translate>
-            </label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className={styles.formGroup}>
-            <label htmlFor="message">
-              <Translate id="contact.message.label">Message</Translate>
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            className={styles.submitButton}
-            disabled={status.type === "loading"}
-          >
-            <Translate id="contact.submit">Send Message</Translate>
-          </button>
+        <form
+          data-netlify="true"
+          name="pizzaOrder"
+          method="post"
+          onSubmit={handleSubmit}
+        >
+          <input type="hidden" name="form-name" value="pizzaOrder" />
+          <label>
+            What order did the pizza give to the pineapple?
+            <input name="order" type="text" onChange={handleChange} />
+          </label>
+          <input type="submit" />
         </form>
       </main>
     </Layout>
