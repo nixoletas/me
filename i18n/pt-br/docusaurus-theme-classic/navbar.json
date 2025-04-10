@@ -26,5 +26,9 @@
   "item.label.About": {
     "message": "Sobre",
     "description": "Navbar item with label About"
+  },
+  "item.label.Projects": {
+    "message": "Projetos",
+    "description": "Navbar item with label Projects"
   }
 }

@@ -90,6 +90,7 @@ const config = {
             position: "left",
             label: "About",
           },
+          { to: "/portfolio/projects", label: "Projects", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
