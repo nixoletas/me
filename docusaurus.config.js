@@ -75,7 +75,25 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "software engineer, developer, portfolio, web development, frontend, backend, devsecops",
+        },
+        { name: "author", content: "Nick Miyasato" },
+        {
+          name: "description",
+          content:
+            "Portfolio and blog of Nick Miyasato, a Software Engineer specializing in web development, DevSecOps, and backend technologies.",
+        },
+        { property: "og:type", content: "website" },
+        { property: "og:site_name", content: "Nick Miyasato" },
+        { property: "og:locale", content: "en_US" },
+        { property: "og:locale:alternate", content: "pt_BR" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:creator", content: "@nickmiyasato" },
+      ],
       image: "img/nick-logo.png",
       navbar: {
         title: "Nick Miyasato",
