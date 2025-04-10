@@ -93,6 +93,11 @@ const config = {
           { to: "/portfolio/projects", label: "Projects", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
+            to: "/contact",
+            label: "Contact",
+            position: "right",
+          },
+          {
             type: "localeDropdown",
             position: "right",
           },
