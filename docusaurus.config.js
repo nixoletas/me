@@ -14,7 +14,7 @@ const config = {
   favicon: "img/nick-logo.png",
 
   // Set the production url of your site here
-  url: "https://nickmiyasato.netlify.app",
+  url: "https://nickmiyasato.com.br",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -80,7 +80,7 @@ const config = {
       navbar: {
         title: "Nick Miyasato",
         logo: {
-          alt: "My Site Logo",
+          alt: "Nick Miyasato Logo",
           src: "img/nick-logo.png",
         },
         items: [
@@ -118,13 +118,6 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
-
-  scripts: [
-    {
-      src: "/js/injectEnv.js",
-      async: true,
-    },
-  ],
 };
 
 export default config;
