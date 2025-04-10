@@ -1,37 +1,36 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Layout from "@theme/Layout";
 import Translate from "@docusaurus/Translate";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./contact.module.css";
+import { useState } from "react";
 
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
+  const [state, setState] = useState({
     name: "",
-    subject: "",
+    email: "",
     message: "",
   });
-  const [status, setStatus] = useState({ type: null, message: "" });
-  const [isClient, setIsClient] = useState(false);
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  const handleSubmit = (e) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state }),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
 
-  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted");
   };
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  if (!isClient) {
-    return null; // or a loading state
-  }
+  const handleChange = (e) => setState({ [e.target.name]: e.target.value });
 
   return (
     <Layout title="Contact" description="Contact form">
@@ -39,26 +38,37 @@ const ContactPage = () => {
         <h1>
           <Translate id="contact.title">Contact Me</Translate>{" "}
         </h1>
-        {status.type && (
-          <div className={`${styles.status} ${styles[status.type]}`}>
-            {status.message}
-          </div>
-        )}
-        <form name="contact" method="post">
-          <input type="hidden" name="form-name" value="contact" />
+        <form onSubmit={handleSubmit}>
           <p>
             <label>
-              Your Name: <input type="text" name="name" />
+              Your Name:{" "}
+              <input
+                type="text"
+                name="name"
+                value={state.name}
+                onChange={handleChange}
+              />
             </label>
           </p>
           <p>
             <label>
-              Your Email: <input type="email" name="email" />
+              Your Email:{" "}
+              <input
+                type="email"
+                name="email"
+                value={state.email}
+                onChange={handleChange}
+              />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message"></textarea>
+              Message:{" "}
+              <textarea
+                name="message"
+                value={state.message}
+                onChange={handleChange}
+              />
             </label>
           </p>
           <p>
