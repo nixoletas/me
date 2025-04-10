@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Layout from "@theme/Layout";
 import Translate from "@docusaurus/Translate";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import styles from "./contact.module.css";
 
 const ContactPage = () => {
@@ -57,13 +55,7 @@ const ContactPage = () => {
       <main className={styles.contactContainer}>
         <h1>
           <Translate id="contact.title">Contact Me</Translate>{" "}
-          <FontAwesomeIcon icon={faTelegram} width={20} height={20} />
         </h1>
-        {status.type && (
-          <div className={`${styles.status} ${styles[status.type]}`}>
-            {status.message}
-          </div>
-        )}
         <form
           name="contact"
           method="POST"
@@ -124,6 +116,11 @@ const ContactPage = () => {
             <Translate id="contact.submit">Send Message</Translate>
           </button>
         </form>
+        {status.type && (
+          <div className={`${styles.status} ${styles[status.type]}`}>
+            {status.message}
+          </div>
+        )}
       </main>
     </Layout>
   );
