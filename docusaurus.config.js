@@ -118,6 +118,13 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
+
+  scripts: [
+    {
+      src: "/js/injectEnv.js",
+      async: true,
+    },
+  ],
 };
 
 export default config;
