@@ -316,10 +316,10 @@
     "message": "Projetos reais com Java e Node 🛠️. Tive a oportunidade de criar um Backend de Helpdesk em Node integrado com Telegram para notificações."
   },
   "Hi, I'm Nick.": {
-    "message": "Oi, eu sou Nick."
+    "message": "Olá, eu sou o Nick."
   },
-  "I'm a Software Developer, Musician and Designer.": {
-    "message": "Sou desenvolvedor de software, músico e designer."
+  "I'm a Software Engineer, Musician and Designer.": {
+    "message": "Sou Engenheiro de Software, Músico e Designer."
   },
   "Projects ": {
     "message": "Projetos "
@@ -329,10 +329,52 @@
     "description": "Sobre mim grande botão"
   },
   "Projects": {
-    "message": "Projects"
+    "message": "Projetos"
   },
   "theme.blog.author.noPosts": {
     "message": "This author has not written any posts yet.",
     "description": "The text for authors with 0 blog post"
+  },
+  "Resume (PDF)": {
+    "message": "Currículo (PDF)"
+  },
+  "Showcase": {
+    "message": "Portfólio"
+  },
+  "A fictional landing page for a Shopping Mall": {
+    "message": "Uma landing page de um site de Shopping ficcional"
+  },
+  "Fut Evento": {
+    "message": "Fut Evento"
+  },
+  "Micro SaaS for managing soccer event (with Google Auth and Maps API)": {
+    "message": "Micro SaaS para gerenciar eventos de futebol (com Google Auth e Maps API)"
+  },
+  "Intranet GovBR": {
+    "message": "Intranet GovBR"
+  },
+  "Intranet built with Angular, Express and Strapi. 300 daily users": {
+    "message": "Intranet construída com Angular, Express e Strapi. 300 usuários diários"
+  },
+  "Code": {
+    "message": "Código"
+  },
+  "Demo": {
+    "message": "Demonstração"
+  },
+  "Front-end": {
+    "message": "Front-end"
+  },
+  "DevSecOps": {
+    "message": "DevSecOps"
+  },
+  "Back-end": {
+    "message": "Back-end"
+  },
+  "About me": {
+    "message": "Sobre mim"
+  },
+  "More": {
+    "message": "Ver mais"
   }
 }

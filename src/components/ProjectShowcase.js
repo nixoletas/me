@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "./ProjectShowcase.module.css";
 import { useInView } from "react-intersection-observer";
+import Translate from "@docusaurus/Translate";
+import Link from "@docusaurus/Link";
 
 const ProjectCard = ({ project, index }) => {
   const [ref, inView] = useInView({
@@ -29,8 +31,12 @@ const ProjectCard = ({ project, index }) => {
           <img src={project.imgSrc} alt={project.title} />
         </div>
         <div className={styles.projectContent}>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <h3>
+            <Translate>{project.title}</Translate>
+          </h3>
+          <p>
+            <Translate>{project.description}</Translate>
+          </p>
           <div className={styles.projectLinks}>
             {project.repo && (
               <a
@@ -40,7 +46,7 @@ const ProjectCard = ({ project, index }) => {
                 className={styles.linkButton}
                 onClick={(e) => e.stopPropagation()}
               >
-                Code
+                <Translate>Code</Translate>
               </a>
             )}
             {project.demo && (
@@ -51,7 +57,7 @@ const ProjectCard = ({ project, index }) => {
                 className={styles.linkButton}
                 onClick={(e) => e.stopPropagation()}
               >
-                Demo
+                <Translate>Demo</Translate>
               </a>
             )}
           </div>
@@ -67,7 +73,7 @@ const ProjectShowcase = () => {
       imgSrc: "/img/projects/vila-bella1.png",
       link: "shopping-vila-bella",
       title: "Shopping Vila Bella",
-      description: "A fiction landing Page for a Shopping Mall",
+      description: "A fictional landing page for a Shopping Mall",
       repo: "https://github.com/nixoletas/site-shopping-villa-bella",
       demo: "https://shopping-vila-bella.netlify.app/",
     },
@@ -99,12 +105,17 @@ const ProjectShowcase = () => {
         transition={{ duration: 0.5 }}
         className={styles.title}
       >
-        Showcase
+        <Translate>Showcase</Translate>
       </motion.h2>
       <div className={styles.projectsGrid}>
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} index={index} />
         ))}
+      </div>
+      <div className={styles.moreButtonContainer}>
+        <Link to="/portfolio/projects/" className={styles.moreButton}>
+          <Translate>More</Translate>
+        </Link>
       </div>
     </section>
   );

@@ -63,8 +63,7 @@ function HomepageHeader() {
                 background: "transparent",
                 position: "relative",
                 padding: "0",
-                paddingTop: "1rem",
-                color: "var(--ifm-primary)",
+                color: "white",
                 textDecoration: "none",
               }}
               onMouseEnter={(e) => {
@@ -80,7 +79,7 @@ function HomepageHeader() {
                   display: "inline-block",
                 }}
               >
-                <Translate>Resume (PDF) </Translate>
+                <Translate>Resume (PDF)</Translate>
                 <FontAwesomeIcon icon={faFilePdf} width={15} />
                 <span
                   style={{
