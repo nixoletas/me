@@ -11,17 +11,22 @@ const ContactPage = () => {
   });
   const [status, setStatus] = useState({ type: null, message: "" });
 
+  const apiUrl = "https://nickmiyasato-backend.onrender.com/api/send-message";
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus({ type: "loading", message: "Sending message..." });
+    const form = e.target.elements;
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value,
+    };
 
-    const form = e.target;
-    const data = new FormData(form);
-
-    fetch("/", {
+    fetch(`${apiUrl}`, {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(data).toString(),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
     })
       .then(() => {
         setStatus({
