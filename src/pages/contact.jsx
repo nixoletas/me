@@ -6,7 +6,7 @@ import styles from "./contact.module.css";
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: "",
-    subject: "",
+    email: "",
     message: "",
   });
   const [status, setStatus] = useState({ type: null, message: "" });
@@ -30,7 +30,7 @@ const ContactPage = () => {
         });
         setFormData({
           name: "",
-          subject: "",
+          email: "",
           message: "",
         });
       })
@@ -84,14 +84,14 @@ const ContactPage = () => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="subject">
-              <Translate id="contact.subject.label">Subject</Translate>
+            <label htmlFor="email">
+              <Translate id="contact.email.label">Email</Translate>
             </label>
             <input
               type="text"
-              id="subject"
-              name="subject"
-              value={formData.subject}
+              id="email"
+              name="email"
+              value={formData.email}
               onChange={handleChange}
               required
             />

@@ -384,7 +384,10 @@
     "message": "Nome"
   },
   "Subject": {
-    "message": "Assunto"
+    "message": "Email"
+  },
+  "Email": {
+    "message": "Email"
   },
   "Message": {
     "message": "Mensagem"
