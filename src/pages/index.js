@@ -25,7 +25,11 @@ function HomepageHeader() {
         <ParticlesBackground />
         <Grid />
         <div className="container" style={{ zIndex: 1 }}>
-          <Heading as="h1" className="hero__title">
+          <Heading
+            as="h1"
+            className="hero__title"
+            style={{ paddingTop: "2rem" }}
+          >
             <Translate>Hi, I'm Nick.</Translate>
           </Heading>
           <img
@@ -38,7 +42,7 @@ function HomepageHeader() {
               borderRadius: "4rem",
             }}
           />
-          <p className="hero__subtitle">
+          <p className="hero__subtitle" style={{ paddingTop: "1rem" }}>
             <Translate>
               I'm a Software Engineer, Musician and Designer.
             </Translate>
@@ -64,6 +68,7 @@ function HomepageHeader() {
                 position: "relative",
                 padding: "0",
                 color: "white",
+                paddingTop: "1rem",
                 textDecoration: "none",
               }}
               onMouseEnter={(e) => {

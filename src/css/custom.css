@@ -64,6 +64,8 @@
 /* Apply JetBrains Mono to all text elements */
 body {
   font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  text-align: justify;
 }
 
 h1,
