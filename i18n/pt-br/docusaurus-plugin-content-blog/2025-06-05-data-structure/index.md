@@ -117,20 +117,15 @@ queue.unshift(1); // [1, 2, 3, 4, 5]
 
 ### Tree
 
-A tree é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
 
 ### Graph
 
-A graph é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
 
 ### Hash Table
 
-A hash table é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
 
 ### Heap
 
-A heap é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
 
 ### Trie
 
-A trie é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
