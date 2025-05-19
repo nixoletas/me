@@ -12,6 +12,8 @@ keywords: ["estrutura de dados", "fundamentos de programação"]
 
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma variável.
 
+![ds](/img/blog/datastructures.webp)
+
 <!-- truncate -->
 
 A maior parte das linguagens de programação trabalha com variações baseadas nos quatro tipos primitivos abaixo:
