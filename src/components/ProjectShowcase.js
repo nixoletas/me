@@ -12,12 +12,6 @@ const ProjectCard = ({ project, index }) => {
   });
 
   return (
-    <a
-      href={project.demo}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ textDecoration: "none" }}
-    >
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
@@ -28,7 +22,9 @@ const ProjectCard = ({ project, index }) => {
         whileTap={{ scale: 0.95 }}
       >
         <div className={styles.projectImage}>
-          <img src={project.imgSrc} alt={project.title} />
+          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+            <img src={project.imgSrc} alt={project.title} />
+          </a>
         </div>
         <div className={styles.projectContent}>
           <h3>
@@ -63,7 +59,6 @@ const ProjectCard = ({ project, index }) => {
           </div>
         </div>
       </motion.div>
-    </a>
   );
 };
 
