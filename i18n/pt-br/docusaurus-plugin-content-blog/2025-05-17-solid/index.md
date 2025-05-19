@@ -57,4 +57,3 @@ Mudar o comportamento de uma classe **afetará todos os sistemas que usam essa c
 Ilustração: Não use a mesma mão para cortar e pintar, use uma mão para cortar e outra para pintar.
 
 ---
-
