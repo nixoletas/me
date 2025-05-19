@@ -326,7 +326,7 @@
   },
   "bigbutton.translation.id": {
     "message": "Entre em contato",
-    "description": "Grande botão de contato"
+    "description": "big button"
   },
   "Projects": {
     "message": "Projetos"
@@ -424,5 +424,11 @@
   },
   "contact.error": {
     "message": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente."
+  },
+  "contact.email.label": {
+    "message": "Email"
+  },
+  "contact.message.note": {
+    "message": "Mensagens podem levar um pouco para serem enviadas devido à função serverless. Por favor, seja paciente."
   }
 }
