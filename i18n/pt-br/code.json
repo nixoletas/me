@@ -318,8 +318,8 @@
   "Hi, I'm Nick.": {
     "message": "Olá, eu sou o Nick."
   },
-  "I'm a Software Engineer, Musician and Designer.": {
-    "message": "Sou Engenheiro de Software, Músico e Designer."
+  "Software Engineer, Musician and Designer.": {
+    "message": "Engenheiro de Software, músico e designer."
   },
   "Projects ": {
     "message": "Projetos "
@@ -342,7 +342,7 @@
     "message": "Portfólio"
   },
   "A fictional landing page for a Shopping Mall": {
-    "message": "Uma landing page de um site de Shopping ficcional"
+    "message": "Uma landing page de um site de Shopping ficcional feita com NextJS e TailwindCSS"
   },
   "Fut Evento": {
     "message": "Fut Evento"

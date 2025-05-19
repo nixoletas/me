@@ -44,7 +44,7 @@ function HomepageHeader() {
           />
           <p className="hero__subtitle" style={{ paddingTop: "1rem" }}>
             <Translate>
-              I'm a Software Engineer, Musician and Designer.
+              Software Engineer, Musician and Designer.
             </Translate>
           </p>
           <div
