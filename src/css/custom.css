@@ -104,3 +104,8 @@ section {
   font-weight: 100;
   font-size: 0.8rem;
 }
+
+.col[class*='col--'] {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
