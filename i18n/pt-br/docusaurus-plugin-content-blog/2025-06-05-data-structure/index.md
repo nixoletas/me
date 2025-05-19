@@ -115,8 +115,48 @@ queue.shift(); // [2, 3, 4, 5]
 queue.unshift(1); // [1, 2, 3, 4, 5]
 ```
 
-### Tree
+### Árvore (Tree)
 
+Uma árvore é uma estrutura de dados hierárquica não-linear que consiste em nós conectados por arestas. Cada árvore tem:
+
+- Um nó raiz (root)
+- Nós pais e filhos
+- Nós folha que não tem filhos
+
+![tree](\img\blog\tree.png)
+
+```python
+class TreeNode:
+    def __init__(self, valor):
+        self.valor = valor
+        self.filhos = []
+        
+    def adicionar_filho(self, filho):
+        self.filhos.append(filho)
+
+# Exemplo de uso
+raiz = TreeNode("A")
+filho1 = TreeNode("B")
+filho2 = TreeNode("C")
+raiz.adicionar_filho(filho1)
+raiz.adicionar_filho(filho2)
+filho1.adicionar_filho(TreeNode("D"))
+filho1.adicionar_filho(TreeNode("E"))
+```
+
+#### Casos de uso
+
+- Representação de hierarquias (sistema de arquivos)
+- Árvores de decisão em IA
+- Árvores de expressão em compiladores
+- Organização de dados (árvores binárias de busca)
+
+#### Complexidade
+
+Acesso: O(log n) para árvores balanceadas, O(n) no pior caso
+Inserção: O(log n) para árvores balanceadas, O(n) no pior caso
+Busca: O(log n) para árvores balanceadas, O(n) no pior caso
+Deleção: O(log n) para árvores balanceadas, O(n) no pior caso
 
 ### Graph
 
