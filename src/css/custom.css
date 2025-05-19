@@ -96,4 +96,11 @@ section {
   font-weight: 300;
 }
 
+.sidebarItem__DBe {
+  font-size: 0.8rem;
+}
 
+.table-of-contents__link {
+  font-weight: 100;
+  font-size: 0.8rem;
+}

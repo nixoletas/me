@@ -26,7 +26,7 @@ A Gangue dos Quatro (GoF) escreveram um dos livros mais importantes do desenvolv
 
 Todos esse 24 padrões de design se encaixam em 3 tipos
 
-## Padrões de criação
+## Criacionais
 
 Ao invés de criar objetos diretamente, esses padrões são mais flexíveis em como esses objetos são criados.
 
@@ -36,7 +36,7 @@ Ao invés de criar objetos diretamente, esses padrões são mais flexíveis em c
 - Builder
 - Factory
 
-## Padrões Estruturais
+## Estruturais
 
 Lida em como os objetos se relacionam. Pense neles como uma planta (blueprint) para criar estruturas maiores a partir de pedaços individuais (tipo LEGO)
 
@@ -45,7 +45,7 @@ Lida em como os objetos se relacionam. Pense neles como uma planta (blueprint) p
 - Facade
 - Adapter
 
-## Padrões comportamentais
+## Comportamentais
 
 Comunicação entre objetos - como eles interagem e distribuem responsabilidade
 
@@ -58,4 +58,4 @@ Comunicação entre objetos - como eles interagem e distribuem responsabilidade
 
 O melhor lugar para aprender sobre padrões de design
 
-### Confira os 7 padrões [aqui](https://refactoring.guru/design-patterns/catalog)
+- Confira os 7 padrões [aqui](https://refactoring.guru/design-patterns/catalog)

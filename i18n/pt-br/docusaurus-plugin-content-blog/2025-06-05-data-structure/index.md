@@ -27,7 +27,7 @@ A maior parte das linguagens de programação trabalha com variações baseadas 
 
 O JavaScript, por exemplo, tem como tipos primitivos embutidos na estrutura básica da linguagem: number, string, boolean e symbol (de “nome simbólico”, usado entre outras coisas para criar propriedades únicas em objetos). Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de acordo com o espaço de memória que será ocupado pela variável: Boolean, Byte, SByte, Int16, UInt16, Int32, UInt32, Int64, UInt64, IntPtr, UIntPtr, Char, Double e Single. O C, por sua vez, não tem um tipo próprio de dado booleano; false é representado pelo número 0 e qualquer outro algarismo representa true. Outras linguagens podem trabalhar com outras variações.
 
-## Características das estruturas de dados
+## Características
 
 Cada estrutura de dados tem um conjunto de métodos próprios para realizar operações como:
 
@@ -35,7 +35,7 @@ Cada estrutura de dados tem um conjunto de métodos próprios para realizar oper
 - 🔎 Buscar e localizar elementos;
 - 🔄 Ordenar (classificar) elementos de acordo com alguma ordem especificada.
 
-## Tipos de estruturas de dados:
+## Tipos:
 
 - 📦 Array
 - 📦 Linked List

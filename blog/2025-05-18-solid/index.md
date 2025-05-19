@@ -1,39 +1,59 @@
 ---
 slug: solid-principles
-title: SOLID Principles
+title: Princípios SOLID
 authors: [nixoletas]
 tags: [solid, architecture]
 image: /img/nick-logo.png
-description: A comprehensive guide to SOLID principles in software development
-keywords: ["solid", "architecture", "software design", "principles"]
+description: Princípios SOLID   
+keywords: ["solid", "architecture"]
 ---
 
-## SOLID Principles
+## Princípios SOLID
 
-SOLID is an acronym for five design principles in object-oriented programming that help make software designs more understandable, flexible, and maintainable.
+S = Single Responsibility
+
+O = Open/Closed
+
+L = Liskov Substitution
+
+I = Interface Segregation
+
+D = Dependency Inversion
 
 <!-- truncate -->
 
-### S - Single Responsibility Principle
-A class should have only one reason to change, meaning it should have only one job or responsibility.
+### Links
 
-### O - Open/Closed Principle
-Software entities should be open for extension but closed for modification.
+- [Vídeo do Filipe Deschamps explicando SOLID](https://www.youtube.com/watch?v=6SfrO3D4dHM)
 
-### L - Liskov Substitution Principle
-Objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
+- [Artigo do Medium de Ugonna Thelma](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 
-### I - Interface Segregation Principle
-A client should not be forced to implement interfaces they don't use.
+Para deixar fácil de seguir, vou usar o termo “Class” mas note que pode se aplicar a uma Function, Method ou Module neste artigo.
 
-### D - Dependency Inversion Principle
-High-level modules should not depend on low-level modules. Both should depend on abstractions.
+---
 
-## Why SOLID Matters
+### Single Responsibility
 
-Following SOLID principles helps create more maintainable, scalable, and robust software. These principles are fundamental to good object-oriented design and are widely used in modern software development.
+Uma classe deve ter apenas uma responsabilidade.
 
-## Resources
+![Exemplo de classe com responsabilidade única](/img/blog/single-responsibility.webp)
 
-- [SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
-- [SOLID Principles Video Explanation](https://www.youtube.com/watch?v=6SfrO3D4dHM)
+Você não pode ser tudo ao mesmo tempo. Não pode ser um chefe de cozinha, um jardineiro, pintor e motorista.
+
+Se uma classe tem muitas responsabilidades, aumenta a possibilidade de bugs porque fazer alterações em uma de suas responsabilidades, pode afetar as outras sem você saber.
+
+O objetivo desse princípio é separar comportamentos. **Se bugs aparecerem, afetam apenas uma responsabilidade**.
+
+---
+
+### Open/Closed
+
+Uma classe deve ser fechada para modificações, mas aberta para extensões.
+
+![Exemplo de classe aberta para extensões](/img/blog/open-closed.webp)
+
+Mudar o comportamento de uma classe **afetará todos os sistemas que usam essa classe**. Se você quer que uma classe tenha mais funções, o ideal é atrbuir uma função já existente à ela, não criar uma nova função dentro dela, ou seja, fechar ela pra modificações e extender o seu comportamento.
+
+Ilustração: Não use a mesma mão para cortar e pintar, use uma mão para cortar e outra para pintar.
+
+---
