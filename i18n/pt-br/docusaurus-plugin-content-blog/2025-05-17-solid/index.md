@@ -6,7 +6,6 @@ tags: [solid, architecture]
 image: /img/nick-logo.png
 description: Princípios SOLID   
 keywords: ["solid", "architecture"]
-date: 2025-05-19
 ---
 
 ## Princípios SOLID

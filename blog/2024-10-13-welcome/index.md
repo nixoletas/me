@@ -16,3 +16,5 @@ keywords:
 ---
 
 Hi! I'm Nick. I have a beautiful wife and a beautiful daughter.
+
+<!-- truncate -->

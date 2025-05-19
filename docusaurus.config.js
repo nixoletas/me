@@ -64,6 +64,12 @@ const config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+          blogTitle: "Nick Miyasato's Blog",
+          blogDescription: "A collection of my thoughts and experiences in software development",
+          postsPerPage: 10,
+          blogSidebarTitle: "Recent Posts",
+          blogSidebarCount: 5,
+          archiveBasePath: "archive",
         },
         theme: {
           customCss: "./src/css/custom.css",
