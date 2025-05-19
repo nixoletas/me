@@ -16,8 +16,9 @@ keywords:
   ]
 ---
 
-Existem problemas no desenvolvimento de software que vão aparecer várias e várias vezes independentemente da linguagem ou plataforma que você usa. Para isso foram criados padrões de design para você usar, e saber quando usar cada um deles.
+Existem problemas no desenvolvimento de software que vão aparecer várias e várias vezes independentemente da linguagem ou plataforma que você usa. 
 <!-- truncate -->
+Para isso foram criados padrões de design para você usar, e saber quando usar cada um deles.
 
 A Gangue dos Quatro (GoF) escreveram um dos livros mais importantes do desenvolvimento de software, o Design Patterns, contendo 24 designs comumente usados.
 

@@ -10,8 +10,6 @@ keywords: ["estrutura de dados", "fundamentos de programação"]
 
 ## O que são dados?
 
-<!-- truncate -->
-
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma variável.
 
 <!-- truncate -->
