@@ -1,7 +1,10 @@
+input, textarea, button {
+  font-family: "JetBrains Mono", monospace;
+}
+
 h1 {
   text-align: center;
   padding-top: 4rem;
-  font-family: "JetBrains Mono", monospace;
 }
 
 form {
