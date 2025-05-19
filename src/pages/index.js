@@ -15,7 +15,6 @@ import {
   faFilePdf,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import Grid from "../components/Grid";
 import Shadown from "../components/Shadown";
 
 function HomepageHeader() {
@@ -23,12 +22,11 @@ function HomepageHeader() {
     <>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <ParticlesBackground />
-        <Grid />
         <div className="container" style={{ zIndex: 1 }}>
           <Heading
             as="h1"
             className="hero__title"
-            style={{ paddingTop: "2rem" }}
+            style={{ paddingTop: "0rem" }}
           >
             <Translate>Hi, I'm Nick.</Translate>
           </Heading>
