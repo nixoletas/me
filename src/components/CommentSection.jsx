@@ -6,7 +6,7 @@ export const CommentSection = () => {
     // Depending on the theme, we will show a different
     // text color in the comments section
     const {colorMode} = useColorMode();
-    const textColor = colorMode === 'dark';
+    const textColor = colorMode === 'light';
 
     useEffect(() => {
         const box = commentBox('5729242960625664-proj', {
