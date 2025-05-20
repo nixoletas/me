@@ -22,6 +22,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "commentbox.io": "^2.1.0",
     "framer-motion": "^12.6.3",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
