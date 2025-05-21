@@ -1,6 +1,6 @@
 ---
 slug: solid-principles
-title: Princípios SOLID
+title: Princípios S.O.L.I.D
 authors: [nixoletas]
 tags: [solid, architecture]
 image: /img/nick-logo.png
@@ -8,7 +8,7 @@ description: Princípios SOLID
 keywords: ["solid", "architecture"]
 ---
 
-## Princípios SOLID
+## Princípios S.O.L.I.D
 
 S = Single Responsibility
 
@@ -22,7 +22,7 @@ D = Dependency Inversion
 
 <!-- truncate -->
 
-### Links
+### Introdução
 
 - [Vídeo do Filipe Deschamps explicando SOLID](https://www.youtube.com/watch?v=6SfrO3D4dHM)
 
