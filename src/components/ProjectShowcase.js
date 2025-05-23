@@ -65,12 +65,12 @@ const ProjectCard = ({ project, index }) => {
 const ProjectShowcase = () => {
   const projects = [
     {
-      imgSrc: "/img/projects/vila-bella1.png",
-      link: "shopping-vila-bella",
-      title: "Shopping Vila Bella",
-      description: "A fictional landing page for a Shopping Mall",
-      repo: "https://github.com/nixoletas/site-shopping-villa-bella",
-      demo: "https://shopping-vila-bella.netlify.app/",
+      imgSrc: "/img/projects/portfolio.png",
+      link: "portfolio",
+      title: "This Portfolio",
+      description: "My portfolio and blog website built with Docusaurus",
+      repo: "https://github.com/nixoletas/portfolio",
+      demo: "https://nickmiyasato.com.br",
     },
     {
       imgSrc: "/img/projects/futevento.png",

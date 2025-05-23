@@ -341,8 +341,11 @@
   "Showcase": {
     "message": "Portfólio"
   },
-  "A fictional landing page for a Shopping Mall": {
-    "message": "Uma landing page de um site de Shopping ficcional feita com NextJS e TailwindCSS"
+  "This Portfolio": {
+    "message": "Esse portfolio"
+  },
+  "My portfolio and blog website built with Docusaurus": {
+    "message": "Meu portfolio e blog feitos com Docusaurus"
   },
   "Fut Evento": {
     "message": "Fut Evento"
@@ -357,10 +360,10 @@
     "message": "Intranet construída com Angular, Express e Strapi. 300 usuários diários"
   },
   "Code": {
-    "message": "Código"
+    "message": "</>"
   },
   "Demo": {
-    "message": "Demonstração"
+    "message": "Demo"
   },
   "Front-end": {
     "message": "Front-end"
