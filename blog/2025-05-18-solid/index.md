@@ -1,14 +1,14 @@
 ---
 slug: solid-principles
-title: Princípios S.O.L.I.D
+title: S.O.L.I.D Principles
 authors: [nixoletas]
 tags: [solid, architecture]
 image: /img/nick-logo.png
-description: Princípios SOLID   
+description: SOLID Principles   
 keywords: ["solid", "architecture"]
 ---
 
-## Princípios S.O.L.I.D
+## S.O.L.I.D Principles
 
 S = Single Responsibility
 
@@ -22,91 +22,96 @@ D = Dependency Inversion
 
 <!-- truncate -->
 
-### Introdução
+### Introduction
 
-- [Vídeo do Filipe Deschamps explicando SOLID](https://www.youtube.com/watch?v=6SfrO3D4dHM)
+- [Filipe Deschamps' video explaining SOLID](https://www.youtube.com/watch?v=6SfrO3D4dHM)
 
-- [Artigo do Medium de Ugonna Thelma](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
+- [Medium article by Ugonna Thelma](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 
-Para deixar fácil de seguir, vou usar o termo “Class” mas note que pode se aplicar a uma Function, Method ou Module neste artigo.
+To make it easy to follow, I'll use the term "Class" but note that it can apply to a Function, Method, or Module in this article.
 
 ---
 
 ### Single Responsibility
 
-Uma classe deve ter apenas uma responsabilidade.
+A class should have only one responsibility.
 
-![Exemplo de classe com responsabilidade única](/img/blog/single-responsibility.webp)
+![Example of a class with single responsibility](/img/blog/single-responsibility.webp)
 
-Você não pode ser tudo ao mesmo tempo. Não pode ser um chefe de cozinha, um jardineiro, pintor e motorista.
+You can't be everything at once. You can't be a chef, gardener, painter, and driver all at the same time.
 
-Se uma classe tem muitas responsabilidades, aumenta a possibilidade de bugs porque fazer alterações em uma de suas responsabilidades, pode afetar as outras sem você saber.
+If a class has many responsibilities, it increases the possibility of bugs because making changes to one of its responsibilities may affect the others without you knowing.
 
-O objetivo desse princípio é separar comportamentos. **Se bugs aparecerem, afetam apenas uma responsabilidade**.
+The goal of this principle is to separate behaviors. **If bugs appear, they affect only one responsibility**.
 
 ---
 
 ### Open/Closed
 
-Uma classe deve ser fechada para modificações, mas aberta para extensões.
+A class should be closed for modifications but open for extensions.
 
-![Exemplo de classe aberta para extensões](/img/blog/open-closed.webp)
+![Example of a class open for extensions](/img/blog/open-closed.webp)
 
-Mudar o comportamento de uma classe **afetará todos os sistemas que usam essa classe**. Se você quer que uma classe tenha mais funções, o ideal é atrbuir uma função já existente à ela, não criar uma nova função dentro dela, ou seja, fechar ela pra modificações e extender o seu comportamento.
+Changing a class's behavior **will affect all systems that use that class**. If you want a class to have more functions, it's better to assign an existing function to it rather than creating a new function inside it - in other words, close it for modifications and extend its behavior.
 
-Ilustração: Não use a mesma mão para cortar e pintar, use uma mão para cortar e outra para pintar.
+Illustration: Don't use the same hand to cut and paint, use one hand for cutting and another for painting.
 
-Isso vira uma bola de neve porque a cada requisito que entrar fica mais difícil de implementar e segurar tudo na mão, é aí que você acaba se atrapalhando todo.
+This becomes a snowball effect because with each new requirement, it becomes more difficult to implement and manage everything, and that's when you end up getting all tangled up.
 
 ---
 
 ### Liskov Substitution
 
-Esse foi o mais difícil de entender na minha opinião.
+This was the hardest one to understand in my opinion.
 
 ![liskov](/img/blog/liskov.webp)
 
-Basicamente, se temos uma classe e criamos uma subclasse utilizando herança, o objeto ou instância dessa subclasse deve conseguir substituir a superclasse sem quebrar o código. 
+Basically, if we have a class and create a subclass using inheritance, the object or instance of that subclass should be able to replace the superclass without breaking the code.
 
-Entendi foi nada. Calma!
+Still confused? Let me explain!
 
-Uma explicação simples, imagine que você tenha uma classe mãe chamada ave:
+A simple explanation: imagine you have a parent class called Bird:
 
 ```javascript
-class Ave {
-    void Voar(){
-        System.out.println("Eu posso voar");
+class Bird {
+    void Fly(){
+        System.out.println("I can fly");
     }
-    void Bicar(){
-        System.out.println("Eu posso bicar");
+    void Peck(){
+        System.out.println("I can peck");
     }
 }
 
-class PicaPau extends Ave{
+class Woodpecker extends Bird{
     @Override
-    void Voar() {
-        super.Voar();
+    void Fly() {
+        super.Fly();
     }
     @Override
-    void Bicar() {
-        super.Bicar();
+    void Peck() {
+        super.Peck();
     }
 }
 ```
 
-Nesse exemplo podemos usar os métodos da classe `Ave` tranquilamente na classe PicaPau, porém imagine criar uma nova classe `Pinguim` que não pode voar. 
+In this example, we can use the methods from the `Bird` class easily in the Woodpecker class. However, imagine creating a new `Penguin` class that cannot fly.
 
 ```javascript
-class Pinguim extends Ave{
+class Penguin extends Bird{
     @Override
-    void Bicar() {
-        super.Bicar();
+    void Peck() {
+        super.Peck();
     }
-    // Pinguim não pode voar portanto não implementa Voar()
+    // Penguin cannot fly, therefore it doesn't implement Fly()
 }
 ```
 
-Se você estivesse usando o método `Voar()` da sua classe mãe Ave no código e fosse substituir `Ave` por `Pinguim` ocorreria uma exceção pois `Pinguim` não implementa `Voar()`
+If you were using the `Fly()` method from your parent Bird class in the code and were to replace `Bird` with `Penguin`, an exception would occur because `Penguin` doesn't implement `Fly()`.
 
 ---
 
+### Interface Segregation
+
+Clients should not be forced to depend on methods they don't use
+
+![wiggle-antena](/img/blog/wiggle-antena.webp)
