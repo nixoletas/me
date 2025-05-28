@@ -237,7 +237,7 @@ Contras ❌
 Pior caso: O(n) | Melhor caso: O(1)
 :::
 
-[Youtube - Algoritmo de Busca Linear por Michael Sambol](https://www.youtube.com/watch?v=246V51AWwZM)
+[Youtube - Algoritmo de Busca Linear por Bro Code](https://www.youtube.com/watch?v=246V51AWwZM)
 
 ```python
 def linear_search(arr, target):
@@ -332,8 +332,191 @@ result = factorial(5)
 print(result)
 ```
 
-BFS (Busca em Largura)
+### BFS (Busca em Largura)
 
-DFS (Busca em Profundidade)
+A Busca em Largura (BFS - Breadth-First Search) é um algoritmo para percorrer ou pesquisar estruturas de dados em árvore ou grafo. Ele começa no nó raiz e explora todos os nós vizinhos no nível atual antes de se mover para os nós do próximo nível.
 
-Dijkstra
+Prós ✅
+
+1. **Completo**:
+   Garante encontrar o caminho mais curto em grafos não ponderados.
+
+2. **Ótimo para grafos não ponderados**:
+   Encontra o caminho com menor número de arestas.
+
+3. **Simples de implementar**:
+   Usa uma estrutura de dados de fila (queue).
+
+Contras ❌
+
+1. **Uso de memória**:
+   Pode consumir muita memória em grafos muito grandes.
+
+2. **Não é ideal para caminhos longos**:
+   Pode ser ineficiente quando o caminho é muito longo.
+
+:::info
+Complexidade de tempo: O(V + E) | Complexidade de espaço: O(V)
+:::
+
+[Youtube - BFS por William Fiset](https://www.youtube.com/watch?v=oDqjPvD54Ss)
+
+```python
+from collections import deque
+
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+    
+    while queue:
+        vertex = queue.popleft()
+        print(vertex, end=' ')
+        
+        for neighbor in graph[vertex]:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+
+# Exemplo de uso
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+
+bfs(graph, 'A')
+```
+
+### DFS (Busca em Profundidade)
+
+A Busca em Profundidade (DFS - Depth-First Search) é um algoritmo para percorrer ou pesquisar estruturas de dados em árvore ou grafo. Ele explora o máximo possível ao longo de cada ramo antes de retroceder.
+
+Prós ✅
+
+1. **Eficiente em memória**:
+   Usa menos memória que BFS em grafos muito grandes.
+
+2. **Bom para caminhos longos**:
+   Pode ser mais eficiente quando o caminho é muito longo.
+
+3. **Útil para backtracking**:
+   Ideal para problemas que requerem backtracking.
+
+Contras ❌
+
+1. **Não garante o caminho mais curto**:
+   Pode não encontrar o caminho mais curto em grafos não ponderados.
+
+2. **Pode ficar preso em ciclos**:
+   Requer marcação de nós visitados para evitar ciclos infinitos.
+
+:::info
+Complexidade de tempo: O(V + E) | Complexidade de espaço: O(V)
+:::
+
+[Youtube - DFS por William Fiset](https://www.youtube.com/watch?v=7fujbpJ0LB4)
+
+```python
+def dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+    
+    visited.add(start)
+    print(start, end=' ')
+    
+    for neighbor in graph[start]:
+        if neighbor not in visited:
+            dfs(graph, neighbor, visited)
+
+# Exemplo de uso
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+
+dfs(graph, 'A')
+```
+
+### Algoritmo de Dijkstra
+
+O algoritmo de Dijkstra é um algoritmo para encontrar o caminho mais curto entre dois vértices em um grafo com arestas de peso não negativo.
+
+Prós ✅
+
+1. **Garante o caminho mais curto**:
+   Encontra o caminho com menor peso total.
+
+2. **Eficiente**:
+   Usa uma fila de prioridade para otimizar a busca.
+
+3. **Versátil**:
+   Pode ser usado em diversos tipos de problemas de roteamento.
+
+Contras ❌
+
+1. **Não funciona com pesos negativos**:
+   Requer que todas as arestas tenham peso não negativo.
+
+2. **Complexidade de implementação**:
+   Mais complexo que BFS ou DFS.
+
+:::info
+Complexidade de tempo: O((V + E) log V) | Complexidade de espaço: O(V)
+:::
+
+[Youtube - Dijkstra's Algorithm por Computer Science Lessons](https://www.youtube.com/watch?v=pVfj6mxhdMw)
+
+```python
+import heapq
+
+def dijkstra(graph, start):
+    distances = {node: float('infinity') for node in graph}
+    distances[start] = 0
+    pq = [(0, start)]
+    
+    while pq:
+        current_distance, current_node = heapq.heappop(pq)
+        
+        if current_distance > distances[current_node]:
+            continue
+            
+        for neighbor, weight in graph[current_node].items():
+            distance = current_distance + weight
+            
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                heapq.heappush(pq, (distance, neighbor))
+                
+    return distances
+
+# Exemplo de uso
+graph = {
+    'A': {'B': 1, 'C': 4},
+    'B': {'A': 1, 'C': 2, 'D': 5},
+    'C': {'A': 4, 'B': 2, 'D': 1},
+    'D': {'B': 5, 'C': 1}
+}
+
+distances = dijkstra(graph, 'A')
+print(distances)
+```
+
+## Conclusão
+
+Cada algoritmo tem seu lugar e propósito específico. A escolha do algoritmo correto depende do problema que você está tentando resolver e das características dos seus dados. Entender as complexidades e trade-offs de cada algoritmo é crucial para escrever código eficiente e escalável.
+
+Lembre-se:
+- Use algoritmos simples (como Bubble Sort) para conjuntos pequenos de dados ou para fins educacionais
+- Algoritmos mais complexos (como Quick Sort) são melhores para conjuntos grandes de dados
+- BFS e DFS são fundamentais para problemas de grafos
+- Dijkstra é a escolha certa para encontrar caminhos mais curtos em grafos ponderados
+
+A prática constante e a compreensão profunda desses algoritmos ajudarão você a se tornar um programador mais eficiente e capaz de resolver problemas complexos de forma elegante.
