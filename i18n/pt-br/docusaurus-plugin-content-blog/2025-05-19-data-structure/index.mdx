@@ -1,0 +1,301 @@
+---
+slug: data-structure
+title: Estrutura de dados
+authors: [nixoletas]
+tags: [estrutura de dados, fundamentos de programação]
+image: /img/nick-logo.png
+description: Relembrando estrutura de dados
+keywords: ["estrutura de dados", "fundamentos de programação"]
+---
+
+import BlogImage from '@site/src/components/blog/BlogImage';
+
+## O que são dados?
+
+Os dados (e seus diversos tipos) são os blocos básicos da programação.
+<!-- truncate -->
+Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma variável.
+
+<BlogImage src="/img/blog/datastructures.webp" alt="Data Structures" />
+
+
+A maior parte das linguagens de programação trabalha com variações baseadas nos quatro tipos primitivos abaixo:
+
+---
+
+- **INT** ou número inteiro: valores numéricos inteiros (positivos ou negativos);
+- **FLOAT** ou o chamado "ponto flutuante": valores numéricos com casas após a vírgula (positivos ou negativos);
+- **BOOLEAN** ou booleanos: representado apenas por dois valores, "verdadeiro" e "falso". Também chamados de operadores lógicos;
+- **TEXT** ou cadeias de caracteres: sequências ou cadeias de caracteres, utilizados para manipular textos e/ou outros tipos de dados não numéricos ou booleanos, como hashes de criptografia.
+
+O JavaScript, por exemplo, tem como tipos primitivos embutidos na estrutura básica da linguagem: number, string, boolean e symbol (de "nome simbólico", usado entre outras coisas para criar propriedades únicas em objetos). Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de acordo com o espaço de memória que será ocupado pela variável: Boolean, Byte, SByte, Int16, UInt16, Int32, UInt32, Int64, UInt64, IntPtr, UIntPtr, Char, Double e Single. O C, por sua vez, não tem um tipo próprio de dado booleano; false é representado pelo número 0 e qualquer outro algarismo representa true. Outras linguagens podem trabalhar com outras variações.
+
+## Características
+
+Cada estrutura de dados tem um conjunto de métodos próprios para realizar operações como:
+
+- ⬆️ Inserir ou excluir elementos;
+- 🔎 Buscar e localizar elementos;
+- 🔄 Ordenar (classificar) elementos de acordo com alguma ordem especificada.
+
+## Tipos:
+
+- 📦 Array
+- 📦 Linked List
+- 📦 Stack
+- 📦 Queue
+- 📦 Tree
+- 📦 Graph
+- 📦 Hash Table
+- 📦 Heap
+- 📦 Trie
+
+### Array
+
+O array é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável. Os elementos são armazenados sequencialmente, um ao lado do outro, e podem ser acessados através de um índice. Eles não mudam de posição, mas podem ser removidos ou adicionados. São do mesmo tipo de dado.
+
+```javascript
+const array = [1, 2, 3, 4, 5];
+
+array[0]; // 1
+array[1]; // 2
+array[2]; // 3
+
+array.push(6); // [1, 2, 3, 4, 5, 6]
+array.pop(); // [1, 2, 3, 4, 5]
+array.shift(); // [2, 3, 4, 5]
+array.unshift(1); // [1, 2, 3, 4, 5]
+```
+
+### Linked List
+
+A linked list é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
+
+```javascript
+const linkedList = [1, 2, 3, 4, 5];
+
+linkedList[0]; // 1
+linkedList[1]; // 2
+linkedList[2]; // 3
+
+linkedList.push(6); // [1, 2, 3, 4, 5, 6]
+linkedList.pop(); // [1, 2, 3, 4, 5]
+linkedList.shift(); // [2, 3, 4, 5]
+linkedList.unshift(1); // [1, 2, 3, 4, 5]
+```
+
+### Stack
+
+A stack é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
+
+```javascript
+const stack = [1, 2, 3, 4, 5];
+
+stack[0]; // 1
+stack[1]; // 2
+stack[2]; // 3
+
+stack.push(6); // [1, 2, 3, 4, 5, 6]
+stack.pop(); // [1, 2, 3, 4, 5]
+stack.shift(); // [2, 3, 4, 5]
+stack.unshift(1); // [1, 2, 3, 4, 5]
+```
+
+### Queue
+
+A queue é uma estrutura de dados linear que armazena uma coleção de elementos em uma única variável.
+
+```javascript
+const queue = [1, 2, 3, 4, 5];
+
+queue[0]; // 1
+queue[1]; // 2
+queue[2]; // 3
+
+queue.push(6); // [1, 2, 3, 4, 5, 6]
+queue.pop(); // [1, 2, 3, 4, 5]
+queue.shift(); // [2, 3, 4, 5]
+queue.unshift(1); // [1, 2, 3, 4, 5]
+```
+
+### Árvore (Tree)
+
+Uma árvore é uma estrutura de dados hierárquica não-linear que consiste em nós conectados por arestas. Cada árvore tem:
+
+- Um nó raiz (root)
+- Nós pais e filhos
+- Nós folha que não tem filhos
+
+![tree](\img\blog\tree.png)
+
+```python
+class TreeNode:
+    def __init__(self, valor):
+        self.valor = valor
+        self.filhos = []
+        
+    def adicionar_filho(self, filho):
+        self.filhos.append(filho)
+
+# Exemplo de uso
+raiz = TreeNode("A")
+filho1 = TreeNode("B")
+filho2 = TreeNode("C")
+raiz.adicionar_filho(filho1)
+raiz.adicionar_filho(filho2)
+filho1.adicionar_filho(TreeNode("D"))
+filho1.adicionar_filho(TreeNode("E"))
+```
+
+#### Casos de uso
+
+- Representação de hierarquias (sistema de arquivos)
+- Árvores de decisão em IA
+- Árvores de expressão em compiladores
+- Organização de dados (árvores binárias de busca)
+
+#### Complexidade
+
+Acesso: O(log n) para árvores balanceadas, O(n) no pior caso
+Inserção: O(log n) para árvores balanceadas, O(n) no pior caso
+Busca: O(log n) para árvores balanceadas, O(n) no pior caso
+Deleção: O(log n) para árvores balanceadas, O(n) no pior caso
+
+### Graph (Grafo)
+
+Um grafo é uma estrutura de dados não-linear que consiste em um conjunto de vértices (nós) conectados por arestas. Os grafos podem ser direcionados (arestas com direção) ou não direcionados.
+
+```python
+class Graph:
+    def __init__(self):
+        self.graph = {}
+    
+    def adicionar_vertice(self, vertice):
+        if vertice not in self.graph:
+            self.graph[vertice] = []
+    
+    def adicionar_aresta(self, origem, destino):
+        if origem in self.graph:
+            self.graph[origem].append(destino)
+        else:
+            self.graph[origem] = [destino]
+
+# Exemplo de uso
+g = Graph()
+g.adicionar_vertice("A")
+g.adicionar_vertice("B")
+g.adicionar_aresta("A", "B")
+```
+
+#### Casos de uso
+- Redes sociais
+- Sistemas de navegação
+- Redes de computadores
+- Mapas e rotas
+
+#### Complexidade
+- Acesso: O(V + E), onde V é o número de vértices e E é o número de arestas
+- Inserção: O(1)
+- Busca: O(V + E)
+- Deleção: O(V + E)
+
+### Hash Table (Tabela Hash)
+
+Uma tabela hash é uma estrutura de dados que implementa um array associativo, mapeando chaves para valores. Utiliza uma função hash para calcular um índice onde o valor será armazenado.
+
+```javascript
+const hashTable = new Map();
+
+// Inserindo valores
+hashTable.set("chave1", "valor1");
+hashTable.set("chave2", "valor2");
+
+// Acessando valores
+console.log(hashTable.get("chave1")); // "valor1"
+
+// Removendo valores
+hashTable.delete("chave1");
+```
+
+#### Casos de uso
+- Caches
+- Bancos de dados
+- Dicionários
+- Tabelas de símbolos em compiladores
+
+#### Complexidade
+- Acesso: O(1) em média, O(n) no pior caso
+- Inserção: O(1) em média, O(n) no pior caso
+- Busca: O(1) em média, O(n) no pior caso
+- Deleção: O(1) em média, O(n) no pior caso
+
+### Heap (Montículo)
+
+Um heap é uma estrutura de dados baseada em árvore que satisfaz a propriedade do heap. Em um heap máximo, cada nó pai é maior ou igual aos seus filhos; em um heap mínimo, cada nó pai é menor ou igual aos seus filhos.
+
+```python
+import heapq
+
+# Criando um heap mínimo
+heap = []
+heapq.heappush(heap, 5)
+heapq.heappush(heap, 2)
+heapq.heappush(heap, 8)
+
+# Removendo o menor elemento
+menor = heapq.heappop(heap)  # 2
+```
+
+#### Casos de uso
+- Filas de prioridade
+- Algoritmos de ordenação (Heapsort)
+- Algoritmos de caminho mais curto
+- Gerenciamento de memória
+
+#### Complexidade
+- Acesso ao máximo/mínimo: O(1)
+- Inserção: O(log n)
+- Deleção: O(log n)
+- Construção: O(n)
+
+### Trie (Árvore de Prefixos)
+
+Uma trie é uma estrutura de dados em árvore usada para armazenar strings. Cada nó representa um caractere, e os caminhos da raiz até os nós folha formam strings.
+
+```python
+class TrieNode:
+    def __init__(self):
+        self.filhos = {}
+        self.fim_da_palavra = False
+
+class Trie:
+    def __init__(self):
+        self.raiz = TrieNode()
+    
+    def inserir(self, palavra):
+        no = self.raiz
+        for char in palavra:
+            if char not in no.filhos:
+                no.filhos[char] = TrieNode()
+            no = no.filhos[char]
+        no.fim_da_palavra = True
+```
+
+#### Casos de uso
+- Autocompletar
+- Verificação ortográfica
+- Dicionários
+- Roteamento IP
+
+#### Complexidade
+- Inserção: O(m), onde m é o comprimento da string
+- Busca: O(m)
+- Deleção: O(m)
+
+## Conclusão
+
+As estruturas de dados e Algoritmos são o cerne do desenvolvimento de software e é justamente por onde você deve começar se quer aprender a programar. Cada estrutura de dado possui um caso onde é melhor utilizada. A escolha da estrutura de dados correta pode impactar significativamente o desempenho e a manutenibilidade de uma aplicação.
+
+É importante entender as complexidades de tempo e espaço de cada estrutura, bem como seus casos de uso ideais. Ao dominar estas estruturas, você estará melhor equipado para resolver problemas complexos e otimizar suas soluções.
+
+Lembre-se que a prática é essencial para internalizar estes conceitos. Experimente implementar estas estruturas na sua linguagem de programação e resolva problemas práticos utilizando-as, recomendo fazer um pouco de [Leetcode](https://leetcode.com/). Com o tempo, você desenvolverá uma intuição natural para escolher a estrutura de dados mais apropriada para cada situação.
