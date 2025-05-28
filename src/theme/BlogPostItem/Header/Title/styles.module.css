@@ -1,5 +1,11 @@
 .title {
   font-size: 2.2rem;
+  text-align: center;
+}
+
+/* Make title bigger on blog post pages */
+:global(.blog-post-page) .title {
+  font-size: 3rem;
 }
 
 /**
@@ -8,5 +14,9 @@
 @media (max-width: 576px) {
   .title {
     font-size: 2rem;
+  }
+  
+  :global(.blog-post-page) .title {
+    font-size: 2.5rem;
   }
 }

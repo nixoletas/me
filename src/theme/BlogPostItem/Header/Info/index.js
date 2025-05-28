@@ -5,6 +5,8 @@ import {usePluralForm} from '@docusaurus/theme-common';
 import {useDateTimeFormat} from '@docusaurus/theme-common/internal';
 import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 import styles from './styles.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar, faClock } from '@fortawesome/free-solid-svg-icons';
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
   const {selectMessage} = usePluralForm();
@@ -46,11 +48,13 @@ export default function BlogPostItemHeaderInfo({className}) {
   const formatDate = (blogDate) => dateTimeFormat.format(new Date(blogDate));
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
+      <FontAwesomeIcon icon={faCalendar} className={styles.readingTimeIcon} />
       <DateTime date={date} formattedDate={formatDate(date)} />
       {typeof readingTime !== 'undefined' && (
         <>
           <Spacer />
-          <ReadingTime readingTime={readingTime} />
+          <FontAwesomeIcon icon={faClock} className={styles.readingTimeIcon} />
+          <ReadingTime readingTime={readingTime} className={styles.readingTime} />
         </>
       )}
     </div>
