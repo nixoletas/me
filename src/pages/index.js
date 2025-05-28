@@ -49,13 +49,22 @@ function HomepageHeader() {
             className={styles.buttons}
             style={{ display: "flex", gap: "10px", flexDirection: "column" }}
           >
-            <Link
-              className="button button--primary button--lg"
-              to="/portfolio/projects"
-            >
-              <Translate>Projects </Translate>
-              <FontAwesomeIcon icon={faBook} width={15} />
-            </Link>
+            <div style={{ display: "flex", gap: "10px", flexDirection: "row" }}>
+              <Link
+                className="button button--primary button--lg"
+                to="/portfolio/projects"
+              >
+                <Translate>Projects </Translate>
+                <FontAwesomeIcon icon={faBook} width={15} />
+              </Link>
+              <Link
+                className="button button--primary button--lg"
+                to="/blog"
+              >
+                <Translate>Blog </Translate>
+                <FontAwesomeIcon icon={faEnvelope} width={15} />
+              </Link>
+            </div>
             <Link
               className="button button--secondary button--lg"
               href="/Nick_Miyasato.pdf"
