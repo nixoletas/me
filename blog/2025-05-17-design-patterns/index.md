@@ -1,9 +1,7 @@
 ---
 slug: design-patterns
 title: 7 Design Patterns Every Developer Should Know (still writing)
-authors: [nixoletas]
 tags: [design patterns, knowledge]
-image: /img/nick-logo.png
 description: Some of the most used design patterns that every developer should know
 keywords:
   [

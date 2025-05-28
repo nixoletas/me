@@ -1,7 +1,6 @@
 ---
 slug: Bem-vindo
 title: Bem-vindo
-authors: [nixoletas]
 tags: [portfolio, docusaurus]
 ---
 
