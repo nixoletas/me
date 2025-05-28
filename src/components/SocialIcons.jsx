@@ -8,7 +8,7 @@ const SocialIcons = () => {
         { name: 'GitHub', url: 'https://github.com/nixoletas', icon: faGithub },
         { name: 'LinkedIn', url: 'https://linkedin.com/in/nixoletas', icon: faLinkedin },
         { name: 'Gmail', url: 'mailto:nick.miyasato.dev@gmail.com', icon: faEnvelope },
-        { name: 'Youtube', url: 'https://youtube.com/nixoletas', icon: faYoutube },
+        { name: 'Youtube', url: 'https://www.youtube.com/@Nick_oDev', icon: faYoutube },
         { name: 'Soundcloud', url: 'https://soundcloud.com/nixoletas', icon: faSoundcloud },
     ];
 
