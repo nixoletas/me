@@ -87,6 +87,11 @@ const config = {
       '@easyops-cn/docusaurus-search-local',
       {
         // Options for the search plugin
+        indexDocs: true,
+        indexPages: true,
+        indexBlog: true,
+        docsRouteBasePath: 'portfolio',
+        blogRouteBasePath: 'blog',
         hashed: true,
         language: ['en'],
         highlightSearchTermsOnTargetPage: false,
