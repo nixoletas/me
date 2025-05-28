@@ -1,10 +1,10 @@
 ---
 slug: design-patterns
-title: 7 Padrões de Design que todo Desenvolvedor deve Conhecer
+title: 7 Design Patterns Every Developer Should Know (still writing)
 authors: [nixoletas]
 tags: [design patterns, knowledge]
 image: /img/nick-logo.png
-description: Alguns dos padrões de design mais usados e que todo desenvolvedor deve conhecer
+description: Some of the most used design patterns that every developer should know
 keywords:
   [
     "software engineer",
@@ -16,36 +16,36 @@ keywords:
   ]
 ---
 
-Existem problemas no desenvolvimento de software que vão aparecer várias e várias vezes independentemente da linguagem ou plataforma que você usa. Para isso foram criados padrões de design para você usar, e saber quando usar cada um deles.
+There are problems in software development that will appear over and over again regardless of the language or platform you use. For this reason, design patterns were created for you to use, and to know when to use each one of them.
 
 <!-- truncate -->
 
-A Gangue dos Quatro (GoF) escreveram um dos livros mais importantes do desenvolvimento de software, o Design Patterns, contendo 24 designs comumente usados.
+The Gang of Four (GoF) wrote one of the most important books in software development, Design Patterns, containing 24 commonly used designs.
 
-[link para o livro](https://www.javier8a.com/itc/bd1/articulo.pdf)
+[link to the book](https://www.javier8a.com/itc/bd1/articulo.pdf)
 
-Todos esses 24 padrões de design se encaixam em 3 tipos:
+All these 24 design patterns fit into 3 types:
 
-## Padrões de Criação
+## Creational Patterns
 
-Ao invés de criar objetos diretamente, esses padrões são mais flexíveis em como esses objetos são criados.
+Instead of creating objects directly, these patterns are more flexible in how these objects are created.
 
-3 principais:
+3 main ones:
 - Singleton
 - Builder
 - Factory
 
-## Padrões Estruturais
+## Structural Patterns
 
-Lida em como os objetos se relacionam. Pense neles como uma planta (blueprint) para criar estruturas maiores a partir de pedaços individuais (tipo LEGO)
+Deals with how objects relate to each other. Think of them as a blueprint for creating larger structures from individual pieces (like LEGO)
 
-2 principais:
+2 main ones:
 - Facade
 - Adapter
 
-## Padrões Comportamentais
+## Behavioral Patterns
 
-Comunicação entre objetos - como eles interagem e distribuem responsabilidade
+Communication between objects - how they interact and distribute responsibility
 
 - Strategy
 - Observer
@@ -54,6 +54,6 @@ Comunicação entre objetos - como eles interagem e distribuem responsabilidade
 
 ### [Refactoring Guru](https://refactoring.guru/)
 
-O melhor lugar para aprender sobre padrões de design
+The best place to learn about design patterns
 
-### Confira os 7 padrões [aqui](https://refactoring.guru/design-patterns/catalog)
+### Check out the 7 patterns [here](https://refactoring.guru/design-patterns/catalog)

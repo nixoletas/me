@@ -1,6 +1,6 @@
 ---
 slug: design-patterns
-title: 7 Padrões de Design que todo Desenvolvedor deve Conhecer
+title: 7 Padrões de Design que todo Desenvolvedor deve Conhecer (ainda escrevendo)
 authors: [nixoletas]
 tags: [design patterns, knowledge]
 image: /img/nick-logo.png
