@@ -8,6 +8,8 @@ description: Princípios SOLID
 keywords: ["solid", "architecture"]
 ---
 
+import BlogImage from '@site/src/components/blog/BlogImage';
+
 ## Princípios S.O.L.I.D
 
 S = Single Responsibility
@@ -52,7 +54,7 @@ O objetivo desse princípio é separar comportamentos. **Se bugs aparecerem, afe
 
 Uma classe deve ser fechada para modificações, mas aberta para extensões.
 
-![Exemplo de classe aberta para extensões](/img/blog/open-closed.webp)
+<BlogImage src="/img/blog/open-closed.webp" alt="Exemplo de classe aberta para extensões" />
 
 Mudar o comportamento de uma classe **afetará todos os sistemas que usam essa classe**. Se você quer que uma classe tenha mais funções, o ideal é atrbuir uma função já existente à ela, não criar uma nova função dentro dela, ou seja, fechar ela pra modificações e extender o seu comportamento.
 
@@ -64,7 +66,7 @@ Ilustração: Não use a mesma mão para cortar e pintar, use uma mão para cort
 
 Esse foi o mais difícil de entender na minha opinião.
 
-![liskov](/img/blog/liskov.webp)
+<BlogImage src="/img/blog/liskov.webp" alt="Exemplo de classe aberta para extensões" />
 
 Basicamente, se temos uma classe e criamos uma subclasse utilizando herança, o objeto ou instância dessa subclasse deve conseguir substituir a superclasse sem quebrar o código. 
 
@@ -116,7 +118,7 @@ Se você estivesse usando o método `Voar()` da sua classe mãe Ave no código e
 
 Clientes não devem ser forçados a depender de métodos que eles não usam
 
-![wiggle-antena](/img/blog/wiggle-antena.webp)
+<BlogImage src="/img/blog/wiggle-antena.webp" alt="wiggle-antena" />
 
 Quando uma Classe é obrigada a executar ações que não são úteis, isso é um desperdício e pode produzir bugs inesperados se a Classe não tiver a capacidade de executar essas ações.
 
@@ -135,7 +137,7 @@ Módulos de alto nível não devem depender de módulos de baixo nível. Ambos d
 
 Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
 
-![Dependency Inversion](/img/blog/dependency-inversion.webp)
+<BlogImage src="/img/blog/dependency-inversion.webp" alt="Dependency Inversion" />
 
 Primeiramente, vamos definir os termos usados aqui de forma mais simples
 
