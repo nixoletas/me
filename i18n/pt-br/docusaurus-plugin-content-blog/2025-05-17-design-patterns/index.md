@@ -16,13 +16,18 @@ keywords:
 
 Existem problemas no desenvolvimento de software que vão aparecer várias e várias vezes independentemente da linguagem ou plataforma que você usa. 
 <!-- truncate -->
+
 Para isso foram criados padrões de design para você usar, e saber quando usar cada um deles.
 
-A Gangue dos Quatro (GoF) escreveram um dos livros mais importantes do desenvolvimento de software, o Design Patterns, contendo 24 designs comumente usados.
+<div style={{display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem'}}>
+  <img src="/img/blog/gof.gif" width="100" style={{borderRadius: '50%'}} alt="Design Patterns" />
+  <div>A Gangue dos Quatro (GoF) escreveram um dos livros mais importantes do desenvolvimento de software, o Design Patterns, contendo 24 designs comumente usados.</div>
+</div>
 
-[link para o livro](https://www.javier8a.com/itc/bd1/articulo.pdf)
-
-Todos esse 24 padrões de design se encaixam em 3 tipos
+<div style={{display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem'}}>
+  <img src="/img/blog/gof-book.png" width="100" style={{borderRadius: '1rem'}} alt="Design Patterns" />
+  <a href="https://www.javier8a.com/itc/bd1/articulo.pdf" target="_blank">Link para o livro</a>
+</div>
 
 ## Criacionais
 
