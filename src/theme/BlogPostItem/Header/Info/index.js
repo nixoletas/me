@@ -48,12 +48,12 @@ export default function BlogPostItemHeaderInfo({className}) {
   const formatDate = (blogDate) => dateTimeFormat.format(new Date(blogDate));
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
-      <FontAwesomeIcon icon={faCalendar} className={styles.readingTimeIcon} />
+      <FontAwesomeIcon icon={faCalendar} width={16} height={16} className={styles.readingTimeIcon} />
       <DateTime date={date} formattedDate={formatDate(date)} />
       {typeof readingTime !== 'undefined' && (
         <>
           <Spacer />
-          <FontAwesomeIcon icon={faClock} className={styles.readingTimeIcon} />
+          <FontAwesomeIcon icon={faClock} width={16} height={16} className={styles.readingTimeIcon} />
           <ReadingTime readingTime={readingTime} className={styles.readingTime} />
         </>
       )}
