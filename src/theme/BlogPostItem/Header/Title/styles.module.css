@@ -1,6 +1,7 @@
 .title {
   font-size: 2.2rem;
   text-align: center;
+  font-family: "Virgil", monospace;
 }
 
 /* Make title bigger on blog post pages */
