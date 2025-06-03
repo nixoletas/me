@@ -11,7 +11,7 @@ const ContactPage = () => {
   });
   const [status, setStatus] = useState({ type: null, message: "" });
 
-  const apiUrl = "https://nickmiyasato-backend.onrender.com/api/send-message";
+  const apiUrl = "https://nickmiyasato-backend.fly.dev/api/send-message";
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -113,11 +113,6 @@ const ContactPage = () => {
               required
             />
           </div>
-          <p style={{ fontSize: "0.8rem", fontWeight: "300" }}>
-            <Translate id="contact.message.note">
-              Messages may take a while to be sent due to the serverless function. Please be patient.
-            </Translate>
-          </p>
           <button
             type="submit"
             className={styles.submitButton}
