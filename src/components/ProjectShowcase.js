@@ -73,13 +73,13 @@ const ProjectShowcase = () => {
       demo: "https://nickmiyasato.com.br",
     },
     {
-      imgSrc: "/img/projects/futevento.png",
-      link: "futevento",
-      title: "Fut Evento",
+      imgSrc: "/img/projects/angular-apod.png",
+      link: "angular-apod",
+      title: "Angular NASA APOD",
       description:
-        "Micro SaaS for managing soccer event (with Google Auth and Maps API)",
-      repo: "https://github.com/nixoletas/fut-evento.git",
-      demo: "https://futevento.com.br",
+        "Angular app that displays 10 random pictures of the day (APOD) from NASA's API",
+      repo: "https://github.com/nixoletas/angular-nasa-apod",
+      demo: "https://angular-nasa-apod.vercel.app/",
     },
     {
       imgSrc: "/img/intranet-govbr.png",

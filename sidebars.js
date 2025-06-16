@@ -10,6 +10,7 @@ const sidebars = {
         id: "projects/projects",
       },
       items: [
+        "projects/angular-apod",
         "projects/shopping-vila-bella",
         "projects/futevento",
         "projects/intranet",
